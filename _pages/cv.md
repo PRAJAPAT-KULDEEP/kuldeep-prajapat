@@ -5,6 +5,9 @@ permalink: /cv/
 description: "Academic CV of Kuldeep Prajapat, Ph.D. scholar in theoretical and computational AMO physics at IIT Mandi."
 author_profile: true
 redirect_from:
+  - /teaching/
+  - /teaching/2014-spring-teaching-1
+  - /teaching/2015-spring-teaching-1
   - /resume
 ---
 

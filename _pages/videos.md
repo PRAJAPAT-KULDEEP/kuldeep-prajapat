@@ -4,6 +4,10 @@ layout: splash
 title: "Vlog"
 description: "Research-life videos and science communication by Kuldeep Prajapat."
 redirect_from:
+  - /posts/2012/08/blog-post-1/
+  - /posts/2013/08/blog-post-2/
+  - /posts/2014/08/blog-post-3/
+  - /posts/2015/08/blog-post-4/
   - /videos/
 ---
 

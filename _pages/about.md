@@ -5,6 +5,13 @@ title: "Kuldeep Prajapat | Theoretical AMO Physics"
 description: "Academic portfolio of Kuldeep Prajapat, Ph.D. scholar at IIT Mandi. Research in photoionization, electron correlation, atomic clusters, fullerenes, endohedral systems and ultrafast dynamics."
 redirect_from:
   - /about/
+  - /archive-layout-with-content/
+  - /markdown/
+  - /md/
+  - /markdown.html
+  - /non-menu-page/
+  - /nmp/
+  - /nmp.html
   - /about.html
 ---
 

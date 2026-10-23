@@ -3,6 +3,11 @@ permalink: /research/
 layout: splash
 title: "Research"
 description: "Research projects by Kuldeep Prajapat: photoelectron angular distributions in clusters and fullerenes, plasmon-assisted ICD, and photoemission time delays."
+redirect_from:
+  - /portfolio/
+  - /portfolio/portfolio-1/
+  - /portfolio/portfolio-2/
+
 ---
 
 <div class="kp" markdown="1">

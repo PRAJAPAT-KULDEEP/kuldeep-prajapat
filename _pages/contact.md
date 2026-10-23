@@ -3,6 +3,9 @@ permalink: /contact/
 layout: splash
 title: "Contact"
 description: "Contact Kuldeep Prajapat (IIT Mandi) for academic correspondence, research discussions and scientific collaboration."
+redirect_from:
+  - /terms/
+
 ---
 
 <div class="kp" markdown="1">
