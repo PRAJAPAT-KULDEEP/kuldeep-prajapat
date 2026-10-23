@@ -1,0 +1,9 @@
+# One entry per video. id = the part after "v=" in the YouTube link. The first entry is the featured video.
+# Remove the "#" and the trailing "[]" line when you add the first real entry.
+# - id: "XXXXXXXXXXX"
+#   title: "What happens during photoionization?"
+#   description: "One or two sentences."
+#   topic: "Photoionization"
+#   date: 2026-01-31              # optional
+#   article: "/2026/01/my-post/"  # optional companion article path
+[]

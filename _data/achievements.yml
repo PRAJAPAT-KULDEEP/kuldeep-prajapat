@@ -1,0 +1,11 @@
+# One record per verified item, newest first. category: Education, Appointment, Award, Fellowship,
+# Grant, Talk, Workshop, Teaching or Outreach. Always add a source link for awards, grants and talks.
+# - year: "2026"
+#   category: Award
+#   title: "Name of the award"
+#   detail: "Awarding body and a one-line description"
+#   source: "https://link-that-verifies-it"
+- year: "2022 to present"
+  category: Education
+  title: "PhD, School of Physical Sciences, IIT Mandi"
+  detail: "Theoretical and computational atomic, molecular and optical physics."

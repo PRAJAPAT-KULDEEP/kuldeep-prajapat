@@ -1,0 +1,6 @@
+{% assign v = include.v %}
+<article class="vcard"><a href="https://www.youtube.com/watch?v={{ v.id }}"><img loading="lazy" decoding="async" width="480" height="360" src="https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg" alt="Video thumbnail: {{ v.title | escape }}"></a>
+<p class="meta">{{ v.topic }}{% if v.date %}, {{ v.date | date: "%-d %B %Y" }}{% endif %}</p>
+<h3><a href="https://www.youtube.com/watch?v={{ v.id }}">{{ v.title }}</a></h3>
+<p>{{ v.description }}</p>
+{% if v.article %}<p><a href="{{ v.article | relative_url }}">Read the companion article</a></p>{% endif %}</article>
