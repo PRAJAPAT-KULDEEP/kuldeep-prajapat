@@ -20,7 +20,7 @@ jobs:
     - name: Check for talk records
       id: talk_records
       run: |
-        if find _talks -maxdepth 1 -type f \\( -name '*.md' -o -name '*.html' \\) -print -quit | grep -q .; then
+        if compgen -G "_talks/*.md" > /dev/null || compgen -G "_talks/*.html" > /dev/null; then
           echo "present=true" >> "$GITHUB_OUTPUT"
         else
           echo "present=false" >> "$GITHUB_OUTPUT"
