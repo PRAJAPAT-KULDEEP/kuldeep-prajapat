@@ -2,6 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+description: "Academic CV of Kuldeep Prajapat, Ph.D. scholar in theoretical and computational AMO physics at IIT Mandi."
 author_profile: true
 redirect_from:
   - /resume
@@ -12,6 +13,8 @@ redirect_from:
 **Ph.D. Scholar, School of Physical Sciences, IIT Mandi, India**  
 **Research area:** Theoretical and computational atomic, molecular, and optical physics  
 **Institutional email:** [d22091@students.iitmandi.ac.in](mailto:d22091@students.iitmandi.ac.in)
+
+<p class="cv-download"><a class="kp-btn" href="{{ '/files/kuldeep-prajapat-cv.pdf' | relative_url }}" download>Download CV (PDF) <span aria-hidden="true">↓</span></a></p>
 
 ## Research profile
 

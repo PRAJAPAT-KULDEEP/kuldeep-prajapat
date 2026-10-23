@@ -2,49 +2,73 @@
 permalink: /research/
 layout: splash
 title: "Research"
-description: "Research overview: structural and ultrafast electronic dynamics of atomic clusters, fullerenes and endohedral systems. Photoionization, ICD, electron correlation and attosecond time delays."
+description: "Research projects by Kuldeep Prajapat: photoelectron angular distributions in clusters and fullerenes, plasmon-assisted ICD, and photoemission time delays."
 ---
 
 <div class="kp" markdown="1">
 
+<p class="eyebrow page-eyebrow">RESEARCH DOSSIER / THEORETICAL AND COMPUTATIONAL AMO PHYSICS</p>
+
 # Research
 
-My research concerns the structural and ultrafast electronic dynamics of atomic clusters, fullerene, and endohedral systems within atomic, molecular and optical physics.
+My work and current research directions concern electronic response, photoionization, and ultrafast dynamics in atomic clusters, fullerenes, and endohedral systems. The project notes below summarize documented topics and status from my CV. They do not state unreported findings.
 
-I am interested in how electronic structure, collective excitations, and electron–electron interactions influence photoionization and correlated electronic processes.
+<div class="research-grid">
 
-My methodological interests include time-dependent density functional theory, photoelectron angular distributions, Wigner–Smith time delays, and classical-trajectory Monte Carlo simulations.
+<article class="research-card" id="cluster-photoelectron-angular-distributions">
+<div class="research-card__head"><span class="project-index">01</span><span class="status-label">MANUSCRIPT IN PREPARATION</span></div>
+<h2>Photoelectron angular distributions in Na₂₀ and Na₉₂ clusters</h2>
+<p class="project-question"><strong>Research question</strong> How are photoelectron emission directions characterized in sodium clusters of different sizes?</p>
+<dl class="project-details">
+<div><dt>Approach</dt><dd>Angular-distribution studies. Photoelectron angular distributions and time-dependent density functional theory are among the methods in my research toolkit.</dd></div>
+<div><dt>My focus</dt><dd>Current research direction: angular-distribution studies of atomic clusters, including Na₂₀ and Na₉₂.</dd></div>
+<div><dt>Status</dt><dd>Manuscript in preparation with Hari Varma R and Himadri Chakraborty. No results are presented here as published findings.</dd></div>
+</dl>
+</article>
 
-## Atomic clusters and fullerene systems
+<article class="research-card" id="fullerene-photoelectron-distributions">
+<div class="research-card__head"><span class="project-index">02</span><span class="status-label">MANUSCRIPT IN PREPARATION</span></div>
+<h2>Angle- and energy-resolved distributions in C₆₀ and C₂₄₀</h2>
+<p class="project-question"><strong>Research question</strong> How do the photoelectron distributions compare between these two fullerene systems?</p>
+<dl class="project-details">
+<div><dt>Approach</dt><dd>Angle- and energy-resolved photoelectron distributions. Photoelectron angular distributions are a central observable in my research.</dd></div>
+<div><dt>My focus</dt><dd>Study of the C₆₀ versus C₂₄₀ comparison, listed on my CV as a manuscript in preparation.</dd></div>
+<div><dt>Status</dt><dd>Manuscript in preparation with Hari Varma R and Himadri Chakraborty. No DOI or publication link is listed because the work is not published.</dd></div>
+</dl>
+</article>
 
-Clusters and fullerenes are finite many-electron systems whose delocalized electrons can respond collectively to light. I study how this collective response shapes photoionization.
+<article class="research-card" id="plasmon-assisted-icd">
+<div class="research-card__head"><span class="project-index">03</span><span class="status-label">ONGOING RESEARCH</span></div>
+<h2>Plasmon-assisted interatomic Coulombic decay</h2>
+<p class="project-question"><strong>Research question</strong> How do resonant collective excitations enter ICD and influence photoelectron angular distributions in confined systems?</p>
+<dl class="project-details">
+<div><dt>Approach</dt><dd>Study of resonant plasmonic ICD and photoelectron angular distributions. Methods listed in my CV include TDDFT and PAD analysis.</dd></div>
+<div><dt>My focus</dt><dd>Current directions include Mg@C₆₀ and Ar@C₆₀; a related Na₂₀@C₂₄₀ manuscript is listed as preparing for submission.</dd></div>
+<div><dt>Status</dt><dd>Ongoing research. The manuscript title, co-authors, and status are available on the <a href="{{ '/publications/' | relative_url }}">publications page</a>.</dd></div>
+</dl>
+</article>
 
-## Endohedral systems
+<article class="research-card" id="photoemission-time-delays">
+<div class="research-card__head"><span class="project-index">04</span><span class="status-label">RESEARCH DIRECTION</span></div>
+<h2>Photoemission time delays</h2>
+<p class="project-question"><strong>Research question</strong> What temporal information can photoionization time delays provide for clusters and endohedral systems?</p>
+<dl class="project-details">
+<div><dt>Approach</dt><dd>Wigner–Smith photoionization time delays, as listed among my research methods.</dd></div>
+<div><dt>My focus</dt><dd>Attosecond photoemission time delays in metal clusters, fullerenes, and endohedral systems.</dd></div>
+<div><dt>Status</dt><dd>A presentation on Wigner time delay in the spillover plasmon resonance region of sodium clusters is listed for DAMOP 2023. Current directions are ongoing.</dd></div>
+</dl>
+</article>
 
-In endohedral systems, an atom or small cluster sits inside a fullerene cage. I am interested in how the cage influences the electronic structure and ionization of the encapsulated system.
+</div>
 
-## Photoionization and photoelectron dynamics
+<section class="research-methods" aria-labelledby="methods-title">
+<p class="section-kicker">METHODS AND OBSERVABLES</p>
+<h2 id="methods-title">Connecting electronic response with emission</h2>
+<ul class="interest-tags" aria-label="Research methods">
+<li>Time-dependent density functional theory (TDDFT)</li><li>Photoelectron angular distributions (PADs)</li><li>Wigner–Smith time delays</li><li>Classical-trajectory Monte Carlo (CTMC)</li>
+</ul>
+</section>
 
-Photoionization links a system's response to light with measurable electron energies and emission angles. Photoelectron angular distributions carry information about the underlying electronic structure and ionization dynamics.
-
-## Interatomic Coulombic decay and plasmonic RICD
-
-In interatomic Coulombic decay (ICD), an excited system relaxes by transferring energy to a neighboring system, which then emits an electron. Plasmonic resonant ICD concerns the role of collective excitations in this energy transfer.
-
-## Electron correlation and entanglement
-
-Electron–electron interactions correlate the emitted electron with the remaining system. I am interested in how correlation and entanglement can be characterized in photoionization.
-
-## Ultrafast and attosecond dynamics
-
-Photoionization unfolds on femtosecond to attosecond timescales. Wigner–Smith time delays provide a framework for examining its temporal characteristics.
-
-## Theoretical and computational methods
-
-Time-dependent density functional theory, photoelectron angular distributions, Wigner–Smith time delays, and classical-trajectory Monte Carlo (CTMC) simulations.
-
-## Related publications
-
-See the [Publications]({{ '/publications/' | relative_url }}) page and [Google Scholar](https://scholar.google.com/citations?user=R3HZ-pkAAAAJ).
+<p class="section-more">See the <a href="{{ '/publications/' | relative_url }}">publications, posters, and presentations</a>, or <a href="{{ '/contact/' | relative_url }}">contact me</a> for research discussion.</p>
 
 </div>

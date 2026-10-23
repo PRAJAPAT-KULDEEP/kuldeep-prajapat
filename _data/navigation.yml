@@ -3,11 +3,13 @@ main:
     url: /
   - title: "Research"
     url: /research/
+  - title: "Vlog"
+    url: /vlog/
   - title: "Publications"
     url: /publications/
-  - title: "Achievements"
-    url: /achievements/
   - title: "CV"
     url: /cv/
   - title: "Contact"
     url: /contact/
+  - title: "Gallery"
+    url: /gallery/
