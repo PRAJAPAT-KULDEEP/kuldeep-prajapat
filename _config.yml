@@ -32,8 +32,8 @@ author:
   name             : Kuldeep Prajapat #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Theoretical and computational AMO physics at IIT Mandi"
-  location         : #"Earth"
-  employer         : #"Red Brick University"
+  location         : "India"
+  employer         : "IIT Mandi"
   uri              : # URL
   email            : #"none@example.org" 
 
@@ -43,10 +43,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=R3HZ-pkAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : "https://www.researchgate.net/profile/Kuldeep-Prajapat-2?ev=hdr_xprf"
   scopus           : # URL
   zotero           : # URL
@@ -62,7 +62,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -71,7 +71,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://in.linkedin.com/in/kuldeep-prajapat-2814ba351"
+  linkedin         : "kuldeep-prajapat-2814ba351"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -100,7 +100,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
