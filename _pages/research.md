@@ -43,10 +43,6 @@ Photoionization unfolds on femtosecond to attosecond timescales. Wigner–Smith 
 
 Time-dependent density functional theory, photoelectron angular distributions, Wigner–Smith time delays, and classical-trajectory Monte Carlo (CTMC) simulations.
 
-## Figures and diagrams
-
-<p class="empty">Original research figures will be added here.</p>
-
 ## Related publications
 
 See the [Publications]({{ '/publications/' | relative_url }}) page and [Google Scholar](https://scholar.google.com/citations?user=R3HZ-pkAAAAJ).
