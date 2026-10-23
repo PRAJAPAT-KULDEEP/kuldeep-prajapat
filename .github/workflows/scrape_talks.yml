@@ -6,6 +6,7 @@ on:
       - 'talks/**'
       - '_talks/**'
       - 'talkmap.ipynb'
+      - '.github/workflows/scrape_talks.yml'
 
 jobs:
   build:
@@ -16,21 +17,34 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Check for talk records
+      id: talk_records
+      run: |
+        if find _talks -maxdepth 1 -type f \\( -name '*.md' -o -name '*.html' \\) -print -quit | grep -q .; then
+          echo "present=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "present=false" >> "$GITHUB_OUTPUT"
+        fi
+
     - name: Set up Python
+      if: ${{ steps.talk_records.outputs.present == 'true' }}
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'   # Specify the Python version you need
+        python-version: '3.11'   # Specify the Python version you need
 
     - name: Install dependencies
+      if: ${{ steps.talk_records.outputs.present == 'true' }}
       run: |
         pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
         pip install getorg --upgrade
 
     - name: Run Jupyter Notebook
+      if: ${{ steps.talk_records.outputs.present == 'true' }}
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
     - name: Commit changes
+      if: ${{ steps.talk_records.outputs.present == 'true' }}
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
