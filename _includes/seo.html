@@ -4,7 +4,9 @@
 {% assign canonical_path = page.url | replace: "index.html", "" %}
 {% assign canonical_url = canonical_path | prepend: seo_url %}
 
-{% if page.url == "/" %}
+{% if page.title == site.title %}
+  {% assign seo_title = site.title %}
+{% elsif page.url == "/" %}
   {% assign seo_title = site.title %}
 {% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
