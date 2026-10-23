@@ -9,40 +9,44 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Kuldeep Prajapat"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "Kuldeep Prajapat"
+description              : &description "I am a  researcher in Atomic, Molecular and Optical Physics at IIT Mandi, working on the structural and ultrafast electronic dynamics of atomic clusters fullerene and endohedral systems.
+
+My research focuses on photoionization, electron correlation, collective excitations, plasmonic resonant ICD (RICD), and electron entanglement. I use TDDFT, photoelectron angular distributions, Wigner–Smith time delays, and classical-trajectory Monte Carlo simulations  to investigate correlated electron dynamics from the femtosecond to attosecond timescale.
+
+Research interests: Cluster Physics | Fullerene | Endohedral Systems | Photoionization | Plasmonic RICD | ICD | Electron Correlation & Entanglement | Attosecond Dynamics | Photoelectron Time Delays"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://prajapat-kuldeep.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+baseurl                  : "/kuldeep-prajapat" # the subpath of your site, e.g. "/blog"
+repository               : "PRAJAPAT-KULDEEP/kuldeep-prajapat"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : #"profile.png"
+  name             : #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : #"Short biography for the left-hand sidebar"
+  location         : #"Earth"
+  employer         : #"Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : #"none@example.org" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=R3HZ-pkAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Kuldeep-Prajapat-2?ev=hdr_xprf"
   scopus           : # URL
   zotero           : # URL
 
@@ -51,7 +55,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : #"academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +70,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://in.linkedin.com/in/kuldeep-prajapat-2814ba351"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
