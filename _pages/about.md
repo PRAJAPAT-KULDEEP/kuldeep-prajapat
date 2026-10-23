@@ -13,7 +13,7 @@ redirect_from:
 <section class="hero" markdown="1">
 <div class="hero__copy" markdown="1">
 
-<p class="eyebrow">THEORETICAL &amp; COMPUTATIONAL AMO PHYSICS <span aria-hidden="true">·</span> IIT MANDI</p>
+<p class="eyebrow">THEORETICAL &amp; COMPUTATIONAL AMO PHYSIcist,</p>
 
 # Kuldeep Prajapat
 
