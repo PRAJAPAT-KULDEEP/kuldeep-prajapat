@@ -35,5 +35,5 @@ For the verified publication list and citation information, see [Google Scholar]
 ## Professional profiles
 
 - [Google Scholar](https://scholar.google.com/citations?user=R3HZ-pkAAAAJ&hl=en)
-- [LinkedIn](https://www.linkedin.com/in/kuldeep-prajapat-2814ba351)
+- [LinkedIn](https://www.linkedin.com/in/kuldeep-prajapat-844878252)
 - [GitHub](https://github.com/PRAJAPAT-KULDEEP)
