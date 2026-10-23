@@ -5,32 +5,34 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p class="wordwrap">For the verified publication record and citation details, see <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 
-{% include base_path %}
+<h2>Manuscripts in preparation</h2>
+<ul>
+  <li><strong>Single-electron photoexcitation ICD resonances riding with plasmons in Na<sub>20</sub>@C<sub>240</sub></strong><br>
+  Kuldeep Prajapat, Hari Varma R, and Himadri Chakraborty. Preparing for submission.</li>
+  <li><strong>Angle- and energy-resolved photoelectron distribution of C<sub>60</sub> versus C<sub>240</sub> fullerene</strong><br>
+  Kuldeep Prajapat, Hari Varma R, and Himadri Chakraborty. Manuscript in preparation.</li>
+  <li><strong>Photoelectron angular-distribution studies of Na<sub>20</sub> and Na<sub>92</sub> clusters</strong><br>
+  Kuldeep Prajapat, Hari Varma R, and Himadri Chakraborty. Manuscript in preparation.</li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Posters</h2>
+<ul>
+  <li><strong>Attosecond Chronoscopy of Plasmon-Assisted Ionization Dynamics in Mg@C<sub>60</sub></strong><br>
+  WUFXS2026: The 2026 International Workshop on Ultra-Fast &amp; X-Ray Science, East China Normal University, Shanghai, China. April 16–19, 2026.</li>
+  <li><strong>Angle- and Energy-Resolved Photoelectron Distribution of C<sub>60</sub> versus C<sub>240</sub> Fullerene</strong><br>
+  IAMNOP-2025: International Conference on Atomic, Molecular, Nano, and Optical Physics with Applications, Jawaharlal Nehru University, New Delhi, India. December 17–19, 2025.</li>
+  <li><strong>Fano analysis of single-electron ICD resonances in plasmonic and non-plasmonic energy regions of Na<sub>20</sub>@C<sub>240</sub></strong><br>
+  NCAMP 2025: 24th National Conference on Atomic and Molecular Physics, IIT Dhanbad, Jharkhand, India. January 8–11, 2025.</li>
+</ul>
 
-
-
+<h2>Conference presentations</h2>
+<ul>
+  <li><strong>Photoelectron angular-distribution studies of Na<sub>20</sub> and Na<sub>92</sub> clusters</strong><br>
+  9th ISAMP Topical Conference, PRL Ahmedabad, Gujarat, India. February 15–17, 2024.</li>
+  <li><strong>Wigner time delay in the spillover plasmon resonance region of Na clusters</strong><br>
+  DAMOP 2023: 54th Annual Meeting of the APS Division of Atomic, Molecular and Optical Physics, Washington, USA. June 5–9, 2023.</li>
+  <li><strong>Resonant intercluster Coulombic decay in the photoionization of Na<sub>20</sub> confined inside C<sub>240</sub></strong><br>
+  ICPEAC 2023: XXXIII International Conference on Photonic, Electronic and Atomic Collisions, Ontario, Canada. July 25–August 1, 2023.</li>
+</ul>
