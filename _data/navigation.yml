@@ -5,10 +5,6 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Journal"
-    url: /year-archive/
-  - title: "Videos"
-    url: /videos/
   - title: "Achievements"
     url: /achievements/
   - title: "CV"
