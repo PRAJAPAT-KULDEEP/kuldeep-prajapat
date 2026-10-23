@@ -90,7 +90,7 @@ redirect_from:
 <a href="{{ '/research/#fullerene-photoelectron-distributions' | relative_url }}">Project details <span aria-hidden="true">↗</span></a>
 </article>
 <article class="dossier-card">
-<div class="dossier-top"><span class="dossier-no">03</span><span class="meta">ENDOhedral SYSTEMS</span></div>
+<div class="dossier-top"><span class="dossier-no">03</span><span class="meta">ENDOHEDRAL SYSTEMS</span></div>
 <h3>Plasmon-assisted ICD</h3>
 <p>Resonant interatomic Coulombic decay and photoelectron angular distributions in confined systems.</p>
 <a href="{{ '/research/#plasmon-assisted-icd' | relative_url }}">Project details <span aria-hidden="true">↗</span></a>
