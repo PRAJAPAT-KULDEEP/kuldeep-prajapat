@@ -28,9 +28,9 @@ repository               : "PRAJAPAT-KULDEEP/kuldeep-prajapat"
 author:
   # Biographic information
   avatar           : #"profile.png"
-  name             : #"Your Sidebar Name"
+  name             : Kuldeep Prajapat #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  bio              : "Theoretical and computational AMO physics at IIT Mandi"
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
