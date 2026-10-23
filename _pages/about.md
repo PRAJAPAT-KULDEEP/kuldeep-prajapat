@@ -20,7 +20,7 @@ redirect_from:
 <section class="hero" markdown="1">
 <div class="hero__copy" markdown="1">
 
-<p class="eyebrow">THEORETICAL &amp; COMPUTATIONAL AMO PHYSIcist,</p>
+<p class="eyebrow">THEORETICAL &amp; COMPUTATIONAL AMO PHYSICIST</p>
 
 # Kuldeep Prajapat
 
