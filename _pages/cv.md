@@ -7,58 +7,33 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# Kuldeep Prajapat
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Ph.D. Scholar, School of Physical Sciences, IIT Mandi, India**  
+**Research area:** Theoretical and computational atomic, molecular, and optical physics
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research profile
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research on the structural and ultrafast electronic dynamics of atomic clusters, fullerenes, and endohedral systems, with interests in photoionization, electron correlation, collective excitations, interatomic Coulombic decay (ICD), plasmonic resonant ICD, photoelectron angular distributions, and Wigner–Smith time delays.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research methods
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- Time-dependent density functional theory (TDDFT)
+- Photoelectron angular distributions (PADs)
+- Wigner–Smith photoionization time delays
+- Classical-trajectory Monte Carlo (CTMC) simulations
+
+## Education
+
+- **Ph.D. in Physics** — School of Physical Sciences, Indian Institute of Technology Mandi, India  
+  Ph.D. scholar since 2022.
+
+## Publications
+
+For the verified publication list and citation information, see [Google Scholar](https://scholar.google.com/citations?user=R3HZ-pkAAAAJ&hl=en).
+
+## Professional profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=R3HZ-pkAAAAJ&hl=en)
+- [LinkedIn](https://www.linkedin.com/in/kuldeep-prajapat-2814ba351)
+- [GitHub](https://github.com/PRAJAPAT-KULDEEP)
