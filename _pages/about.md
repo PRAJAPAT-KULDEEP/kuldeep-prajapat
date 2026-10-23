@@ -49,7 +49,7 @@ redirect_from:
 
 <section class="kp-section" id="research" markdown="1">
 <div class="section-heading" markdown="1">
-<div>
+<div markdown="1">
 <p class="section-kicker">01 / RESEARCH DOSSIER</p>
 ## Questions across systems and scales
 </div>
@@ -107,7 +107,7 @@ redirect_from:
 
 <section class="kp-section" id="profile" markdown="1">
 <div class="section-heading" markdown="1">
-<div>
+<div markdown="1">
 <p class="section-kicker">03 / ACADEMIC PROFILE</p>
 ## Research, record, and contact
 </div>
