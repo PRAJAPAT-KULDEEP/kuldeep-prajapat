@@ -28,7 +28,7 @@ repository: "PRAJAPAT-KULDEEP/kuldeep-prajapat"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : #"profile.png"
+  avatar           : "kuldeep-prajapat-profile.jpg"
   name             : Kuldeep Prajapat #"Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Theoretical and computational AMO physics at IIT Mandi"

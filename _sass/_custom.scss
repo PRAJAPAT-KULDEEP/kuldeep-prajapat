@@ -313,3 +313,7 @@ img, figure, iframe, svg { max-width: 100%; }
   .kp .research-card { padding: 1rem; }
   .kp .cta-actions { align-items: flex-start; flex-direction: column; }
 }
+
+
+.kp .hero__visual--portrait { padding: 0; overflow: hidden; background: transparent; }
+.kp .hero__portrait { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; object-position: center; }
