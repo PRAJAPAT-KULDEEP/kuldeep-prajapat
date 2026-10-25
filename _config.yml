@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title: "Kuldeep Prajapat | Theoretical AMO Physics"
+title: "Kuldeep Prajapat | Theoretical AMO Researcher"
 
 title_separator: "-"
 
@@ -135,7 +135,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :"GPqbtoG3M5Dk4UFQMEZOK9AxCtXo4EhxPifpUBdXIjY"
+google_site_verification : "GPqbtoG3M5Dk4UFQMEZOK9AxCtXo4EhxPifpUBdXIjY"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
