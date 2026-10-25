@@ -19,8 +19,27 @@ redirect_from:
 
 A space for research-life videos, scientific explanations, conference experiences, and educational content.
 
+{% assign vlog_posts = site.categories.vlog | sort: "date" | reverse %}
+{% if vlog_posts and vlog_posts.size > 0 %}
+<section class="vlog-articles" aria-labelledby="vlog-articles-title">
+  <h2 id="vlog-articles-title">Articles</h2>
+  <p>Short, accessible explanations of cluster physics and related research topics.</p>
+  <div class="vgrid">
+  {% for post in vlog_posts %}
+    <article class="vcard vlog-article-card">
+      <p class="meta">{{ post.date | date: "%B %-d, %Y" }} · Article</p>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      {% if post.excerpt %}<p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 220 }}</p>{% endif %}
+      <p><a href="{{ post.url | relative_url }}">Read full article <span aria-hidden="true">↗</span></a></p>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% assign vids = site.data.videos %}
 {% if vids and vids.size > 0 %}
+<h2>Videos</h2>
 <div class="vgrid">
 {% for v in vids %}
 <article class="vcard">
@@ -33,7 +52,7 @@ A space for research-life videos, scientific explanations, conference experience
 {% endfor %}
 </div>
 {% else %}
-<p class="empty"><strong>Vlog coming soon.</strong> No videos have been published here yet. This page will feature research-life stories, conference experiences, and accessible explanations when they are ready to share.</p>
+<p class="empty">No videos have been added yet. Articles are listed above; video entries will appear here when available.</p>
 {% endif %}
 
 </div>
