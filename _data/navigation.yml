@@ -3,8 +3,6 @@ main:
     url: /
   - title: "Research"
     url: /research/
-  - title: "Search"
-    url: /search/
   - title: "Vlog"
     url: /vlog/
   - title: "Publications"
