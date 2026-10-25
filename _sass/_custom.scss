@@ -352,3 +352,31 @@ img, figure, iframe, svg { max-width: 100%; }
   background: var(--kp-page);
   opacity: 1;
 }
+
+/* Prominent site-search shortcut in the footer */
+.page__footer-follow .social-icons .site-search-footer a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .65rem;
+  min-width: 10.5rem;
+  min-height: 3.1rem;
+  padding: .85rem 1.25rem;
+  border: 2px solid var(--kp-accent);
+  background: var(--kp-accent);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 750;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.page__footer-follow .social-icons .site-search-footer a i {
+  font-size: 1.35rem;
+}
+html[data-theme="dark"] .page__footer-follow .social-icons .site-search-footer a {
+  color: #08141f;
+}
+.page__footer-follow .social-icons .site-search-footer a:hover {
+  opacity: .88;
+  text-decoration: none;
+}
