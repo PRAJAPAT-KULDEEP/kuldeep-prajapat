@@ -3,6 +3,17 @@
 <!-- start custom head snippets -->
 <meta name="site-search-index" content="{{ '/search-index.json' | relative_url }}">
 
+{% if site.analytics.google.tracking_id %}
+<!-- Google Analytics 4: enabled when analytics.google.tracking_id is set in _config.yml -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id | escape }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.analytics.google.tracking_id | escape }}');
+</script>
+{% endif %}
+
 <!-- Support for Academicons -->
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
