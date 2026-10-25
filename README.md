@@ -11,7 +11,7 @@ The site presents research interests and academic work in theoretical and comput
 - [Academic website](https://prajapat-kuldeep.github.io/kuldeep-prajapat/)
 - [Google Scholar](https://scholar.google.com/citations?user=R3HZ-pkAAAAJ&hl=en)
 - [GitHub profile](https://github.com/PRAJAPAT-KULDEEP)
-- [LinkedIn](https://www.linkedin.com/in/kuldeep-prajapat-844878252/)
+- [LinkedIn](https://www.linkedin.com/in/kuldeep-prajapat-2814ba351)
 
 ## Technology
 
