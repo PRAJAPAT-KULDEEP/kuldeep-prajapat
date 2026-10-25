@@ -1,9 +1,3 @@
-
-User-agent: *
-Allow: /
-
-Sitemap: https://prajapat-kuldeep.github.io/kuldeep-prajapat/sitemap.xml
-
 User-agent: *
 Allow: /
 
