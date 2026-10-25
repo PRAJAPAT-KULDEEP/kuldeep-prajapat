@@ -389,8 +389,35 @@ html[data-theme="dark"] .page__footer-follow .social-icons .site-search-footer a
   text-decoration: none;
 }
 
-/* Keep the existing footer links in place; move only the search shortcut right */
-.page__footer-follow .social-icons .site-search-footer {
+/* Split footer follow links from the search action */
+.page__footer-follow.footer-follow-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  width: 100%;
+}
+.page__footer-follow .footer-follow-left {
+  min-width: 0;
+}
+.page__footer-follow .footer-follow-right {
+  flex: 0 0 auto;
   margin-left: auto;
-  float: right;
+}
+.page__footer-follow .footer-follow-left .social-icons,
+.page__footer-follow .footer-follow-right .social-icons {
+  margin: 0;
+}
+.page__footer-follow .social-icons .site-search-footer {
+  margin-left: 0;
+  float: none;
+}
+@media (max-width: 600px) {
+  .page__footer-follow.footer-follow-layout {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .page__footer-follow .footer-follow-right {
+    margin-left: auto;
+  }
 }
