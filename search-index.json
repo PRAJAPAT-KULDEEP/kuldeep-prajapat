@@ -1,0 +1,32 @@
+---
+layout: null
+permalink: /search-index.json
+sitemap: false
+---
+[
+{% assign first_item = true %}
+{% for p in site.pages %}
+  {% if p.title and p.url != "/search/" and p.url != "/search-index.json" %}
+    {% unless first_item %},{% endunless %}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "description": {{ p.description | default: p.excerpt | default: p.content | strip_html | normalize_whitespace | truncate: 500 | jsonify }},
+      "content": {{ p.content | strip_html | normalize_whitespace | truncate: 1200 | jsonify }},
+      "type": "Page"
+    }
+    {% assign first_item = false %}
+  {% endif %}
+{% endfor %}
+{% for p in site.posts %}
+  {% unless first_item %},{% endunless %}
+  {
+    "title": {{ p.title | jsonify }},
+    "url": {{ p.url | relative_url | jsonify }},
+    "description": {{ p.excerpt | default: p.content | strip_html | normalize_whitespace | truncate: 500 | jsonify }},
+    "content": {{ p.content | strip_html | normalize_whitespace | truncate: 1200 | jsonify }},
+    "type": "Post"
+  }
+  {% assign first_item = false %}
+{% endfor %}
+]
