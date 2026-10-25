@@ -340,3 +340,15 @@ img, figure, iframe, svg { max-width: 100%; }
 .kp .search-result .search-url { color: var(--kp-accent); font-size: .68rem; overflow-wrap: anywhere; }
 .kp .search-empty { padding: 1.2rem; border: 1px dashed var(--kp-rule); color: var(--kp-muted); font-size: .88rem; }
 @media (max-width: 540px) { .kp .search-controls { flex-direction: column; } .kp .search-controls .kp-btn { align-self: flex-start; } }
+
+
+/* Follow-updates buttons: keep both subscription choices visible on light and dark themes. */
+.kp .follow-cta .kp-btn--rss {
+  background: var(--kp-paper);
+  color: var(--kp-accent);
+  border-color: var(--kp-accent);
+}
+.kp .follow-cta .kp-btn--rss:hover {
+  background: var(--kp-page);
+  opacity: 1;
+}
