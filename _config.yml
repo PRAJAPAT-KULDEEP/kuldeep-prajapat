@@ -14,7 +14,7 @@ title: "Kuldeep Prajapat | Theoretical AMO Researcher"
 title_separator: "-"
 
 name: &name "Kuldeep Prajapat"
-description: &description "I am a researcher in Atomic, Molecular and Optical Physics at IIT Mandi, working on the structural and ultrafast electronic dynamics of atomic clusters fullerene and endohedral systems." #My research focuses on photoionization, electron correlation, collective excitations, plasmonic resonant ICD (RICD), and electron entanglement. I use TDDFT, photoelectron angular distributions, Wigner–Smith time delays, and classical-trajectory Monte Carlo simulations  to investigate correlated electron dynamics from the femtosecond to attosecond timescale.
+description: &description "Academic website of Kuldeep Prajapat, Ph.D. scholar at IIT Mandi. Research in theoretical and computational AMO physics, atomic clusters, fullerenes, endohedral systems, photoionization, electron correlation, plasmon-assisted ICD, and attosecond time delays."
 
 #Research interests: Cluster Physics | Fullerene | Endohedral Systems | Photoionization | Plasmonic RICD | ICD | Electron Correlation & Entanglement | Attosecond Dynamics | Photoelectron Time Delays"   # Update this with a general description of your site, this is the default if not overridden by a page
 url: "https://prajapat-kuldeep.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
