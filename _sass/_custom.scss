@@ -317,3 +317,26 @@ img, figure, iframe, svg { max-width: 100%; }
 
 .kp .hero__visual--portrait { padding: 0; overflow: hidden; background: transparent; }
 .kp .hero__portrait { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; object-position: center; }
+
+
+/* Client-side search page */
+.kp .site-search { max-width: 850px; margin: 0 auto; }
+.kp .search-header { padding: 2rem 0 1.5rem; }
+.kp .search-header h1 { margin: .4rem 0 .7rem; font-size: clamp(2.1rem, 4.2vw, 3.4rem); font-weight: 500; }
+.kp .search-header p:last-child { color: var(--kp-muted); }
+.kp .search-form { margin: 1.5rem 0 1rem; }
+.kp .search-label { display: block; margin-bottom: .45rem; color: var(--kp-ink); font-size: .82rem; font-weight: 700; }
+.kp .search-controls { display: flex; gap: .6rem; align-items: stretch; }
+.kp .search-controls input[type="search"] { min-width: 0; flex: 1; margin: 0; padding: .9rem 1rem; border: 1px solid var(--kp-rule); border-radius: 0; background: var(--kp-paper); color: var(--kp-ink); font: inherit; box-shadow: none; }
+.kp .search-controls input[type="search"]:focus { border-color: var(--kp-accent); outline: 2px solid color-mix(in srgb, var(--kp-accent) 25%, transparent); outline-offset: 1px; }
+.kp .search-controls .kp-btn { white-space: nowrap; cursor: pointer; }
+.kp .search-status { min-height: 1.5rem; color: var(--kp-muted); font-size: .82rem; }
+.kp .search-results { margin: 1.2rem 0 0; padding: 0; list-style: none; }
+.kp .search-result { margin: 0 0 .8rem; padding: 1.15rem 1.25rem; border: 1px solid var(--kp-rule); border-left: 2px solid var(--kp-accent); background: var(--kp-paper); }
+.kp .search-result h2 { margin: .2rem 0 .45rem; font-family: var(--serif); font-size: 1.3rem; font-weight: 500; }
+.kp .search-result h2 a { color: var(--kp-ink); text-decoration: none; }
+.kp .search-result h2 a:hover { color: var(--kp-accent); }
+.kp .search-result p { margin: .3rem 0 0; color: var(--kp-muted); font-size: .86rem; line-height: 1.6; }
+.kp .search-result .search-url { color: var(--kp-accent); font-size: .68rem; overflow-wrap: anywhere; }
+.kp .search-empty { padding: 1.2rem; border: 1px dashed var(--kp-rule); color: var(--kp-muted); font-size: .88rem; }
+@media (max-width: 540px) { .kp .search-controls { flex-direction: column; } .kp .search-controls .kp-btn { align-self: flex-start; } }
