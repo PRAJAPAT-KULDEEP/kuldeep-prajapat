@@ -16,6 +16,7 @@ For academic correspondence, research discussions, and scientific collaboration,
 
 <ul>
 <li>Affiliation: IIT Mandi, India</li>
+<li>Research group: <a href="https://sadas.iitmandi.ac.in/" target="_blank" rel="noopener noreferrer">Structure and Dynamics of Atomic Systems (SaDAS)</a></li>
 {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}">Institutional email</a></li>{% endif %}
 {% if site.author.googlescholar %}<li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>{% endif %}
 {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}">ORCID</a></li>{% endif %}
