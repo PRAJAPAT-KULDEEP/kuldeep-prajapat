@@ -132,9 +132,22 @@ redirect_from:
 <p class="section-more"><a href="{{ '/cv/' | relative_url }}">View the full academic CV <span aria-hidden="true">↗</span></a></p>
 </section>
 
+<section class="kp-section follow-cta" id="follow-updates" markdown="1">
+<div class="section-heading" markdown="1">
+<div markdown="1">
+<p class="section-kicker">06 / FOLLOW UPDATES</p>
+## New articles, in your inbox or feed
+</div>
+<p class="section-intro">Follow new research notes, articles, and website updates.</p>
+</div>
+<p>Choose email to request notifications, or subscribe to the site's RSS feed in your preferred feed reader. RSS does not require you to share an email address.</p>
+<p class="hero__actions"><a class="kp-btn" href="mailto:d22091@students.iitmandi.ac.in?subject=Subscribe%20to%20research%20updates&amp;body=Please%20add%20me%20to%20the%20email%20notification%20list%20for%20new%20articles%20on%20your%20website.">Subscribe by Email <span aria-hidden="true">↗</span></a><a class="kp-text-link" href="{{ '/feed.xml' | relative_url }}">Follow via RSS <span aria-hidden="true">↗</span></a></p>
+<p class="section-intro">Email requests are currently handled manually; automatic email notifications will require connecting a newsletter service.</p>
+</section>
+
 <section class="kp-section contact-cta" id="contact" markdown="1">
 <div>
-<p class="section-kicker">06 / CONTACT</p>
+<p class="section-kicker">07 / CONTACT</p>
 <h2>Open to research conversations</h2>
 <p>For Ph.D. or postdoctoral opportunities, research collaborations, and academic networking, please get in touch.</p>
 </div>
