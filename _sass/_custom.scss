@@ -388,3 +388,14 @@ html[data-theme="dark"] .page__footer-follow .social-icons .site-search-footer a
   opacity: 1;
   text-decoration: none;
 }
+
+/* Align the single site-search shortcut to the right edge of the footer row */
+.page__footer-follow .social-icons .site-search-footer {
+  margin-left: auto;
+}
+.page__footer-follow .social-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .65rem 1rem;
+}
