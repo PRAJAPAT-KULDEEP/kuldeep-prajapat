@@ -105,13 +105,13 @@ Relative filenames resolve from /images/, and paths already containing a slash r
   <meta property="og:image:alt" content="Academic website of Kuldeep Prajapat, researching photoionization and ultrafast dynamics in atomic clusters and fullerenes">
   {% if seo_image_abs contains ".png" %}
     <meta property="og:image:type" content="image/png">
-    {% if seo_image_abs contains "og-image.png" %}
-      <meta property="og:image:width" content="1200">
-      <meta property="og:image:height" content="630">
-    {% endif %}
   {% elsif seo_image_abs contains ".jpg" or seo_image_abs contains ".jpeg" %}
     <meta property="og:image:type" content="image/jpeg">
+  {% elsif seo_image_abs contains ".svg" %}
+    <meta property="og:image:type" content="image/svg+xml">
   {% endif %}
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 {% endif %}
 
 {% if page.url == "/" and site.author.avatar %}
