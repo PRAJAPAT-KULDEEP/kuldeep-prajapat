@@ -9,12 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title: "Kuldeep Prajapat | Theoretical AMO Researcher"
+title: 'Kuldeep Prajapat, Atomic & Molecular Physics, IIT Mandi'
 
 title_separator: "-"
 
 name: &name "Kuldeep Prajapat"
-description: &description "Academic website of Kuldeep Prajapat, Ph.D. scholar at IIT Mandi. Research in theoretical and computational AMO physics, atomic clusters, fullerenes, endohedral systems, photoionization, electron correlation, plasmon-assisted ICD, and attosecond time delays."
+description: &description "Kuldeep Prajapat, Ph.D. scholar at IIT Mandi, studies photoionization and ultrafast dynamics in atomic clusters, fullerenes and endohedral systems."
 
 #Research interests: Cluster Physics | Fullerene | Endohedral Systems | Photoionization | Plasmonic RICD | ICD | Electron Correlation & Entanglement | Attosecond Dynamics | Photoelectron Time Delays"   # Update this with a general description of your site, this is the default if not overridden by a page
 url: "https://prajapat-kuldeep.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
