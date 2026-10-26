@@ -22,8 +22,8 @@ My work and current research directions concern electronic response, photoioniza
 
 <article class="research-card" id="cluster-photoelectron-angular-distributions">
 <div class="research-card__head"><span class="project-index">01</span><span class="status-label">MANUSCRIPT IN PREPARATION</span></div>
-<h2>Photoelectron angular distributions in Na₂₀ and Na₉₂ clusters</h2>
-<p class="project-question"><strong>Research question</strong> How are photoelectron emission directions characterized in sodium clusters of different sizes?</p>
+<h2>Photoionization and photoelectron angular distributions in sodium clusters</h2>
+<p class="project-question"><strong>Research question</strong> How do sodium-cluster size and electronic structure shape energy-resolved photoionization cross sections and photoelectron angular distributions (PADs) in Na₂₀ and Na₉₂?</p>
 <dl class="project-details">
 <div><dt>Approach</dt><dd>Angular-distribution studies. Photoelectron angular distributions and time-dependent density functional theory are among the methods in my research toolkit.</dd></div>
 <div><dt>My focus</dt><dd>Current research direction: angular-distribution studies of atomic clusters, including Na₂₀ and Na₉₂.</dd></div>
@@ -33,8 +33,8 @@ My work and current research directions concern electronic response, photoioniza
 
 <article class="research-card" id="fullerene-photoelectron-distributions">
 <div class="research-card__head"><span class="project-index">02</span><span class="status-label">MANUSCRIPT IN PREPARATION</span></div>
-<h2>Angle- and energy-resolved distributions in C₆₀ and C₂₄₀</h2>
-<p class="project-question"><strong>Research question</strong> How do the photoelectron distributions compare between these two fullerene systems?</p>
+<h2>Photoionization of fullerenes: energy- and angle-resolved distributions in C₆₀ and C₂₄₀</h2>
+<p class="project-question"><strong>Research question</strong> How do fullerene electronic structure and collective plasmon excitations shape photoionization cross sections and energy- and angle-resolved photoelectron distributions in C₆₀ and C₂₄₀?</p>
 <dl class="project-details">
 <div><dt>Approach</dt><dd>Angle- and energy-resolved photoelectron distributions. Photoelectron angular distributions are a central observable in my research.</dd></div>
 <div><dt>My focus</dt><dd>Study of the C₆₀ versus C₂₄₀ comparison, listed on my CV as a manuscript in preparation.</dd></div>
@@ -44,8 +44,8 @@ My work and current research directions concern electronic response, photoioniza
 
 <article class="research-card" id="plasmon-assisted-icd">
 <div class="research-card__head"><span class="project-index">03</span><span class="status-label">ONGOING RESEARCH</span></div>
-<h2>Plasmon-assisted interatomic Coulombic decay</h2>
-<p class="project-question"><strong>Research question</strong> How do resonant collective excitations enter ICD and influence photoelectron angular distributions in confined systems?</p>
+<h2>Plasmonic interatomic and intercluster Coulombic decay (ICD/RICD)</h2>
+<p class="project-question"><strong>Research question</strong> How do collective plasmon excitations, electronic hybridization, and resonant energy transfer influence interatomic Coulombic decay (ICD), resonant ICD (RICD), and photoelectron angular distributions in endohedral and confined systems such as Na₂₀@C₂₄₀?</p>
 <dl class="project-details">
 <div><dt>Approach</dt><dd>Study of resonant plasmonic ICD and photoelectron angular distributions. Methods listed in my CV include TDDFT and PAD analysis.</dd></div>
 <div><dt>My focus</dt><dd>Current directions include Mg@C₆₀ and Ar@C₆₀; a related Na₂₀@C₂₄₀ manuscript is listed as preparing for submission.</dd></div>
@@ -55,8 +55,8 @@ My work and current research directions concern electronic response, photoioniza
 
 <article class="research-card" id="photoemission-time-delays">
 <div class="research-card__head"><span class="project-index">04</span><span class="status-label">RESEARCH DIRECTION</span></div>
-<h2>Photoemission time delays</h2>
-<p class="project-question"><strong>Research question</strong> What temporal information can photoionization time delays provide for clusters and endohedral systems?</p>
+<h2>Attosecond photoemission: Wigner–Smith time delays and streaking</h2>
+<p class="project-question"><strong>Research question</strong> What do Wigner–Smith (EWS) photoionization time delays and streaking time delays reveal about ultrafast electron emission from clusters, fullerenes, and endohedral systems?</p>
 <dl class="project-details">
 <div><dt>Approach</dt><dd>Wigner–Smith photoionization time delays, as listed among my research methods.</dd></div>
 <div><dt>My focus</dt><dd>Attosecond photoemission time delays in metal clusters, fullerenes, and endohedral systems.</dd></div>
@@ -70,7 +70,7 @@ My work and current research directions concern electronic response, photoioniza
 <p class="section-kicker">METHODS AND OBSERVABLES</p>
 <h2 id="methods-title">Connecting electronic response with emission</h2>
 <ul class="interest-tags" aria-label="Research methods">
-<li>Time-dependent density functional theory (TDDFT)</li><li>Photoelectron angular distributions (PADs)</li><li>Wigner–Smith time delays</li><li>Classical-trajectory Monte Carlo (CTMC)</li>
+<li>Density-functional theory (DFT)</li><li>Time-dependent density-functional theory (TDDFT)</li><li>Photoionization cross sections</li><li>Energy- and angle-resolved photoelectron distributions</li><li>Photoelectron angular distributions (PADs)</li><li>Collective plasmon excitations</li><li>Interatomic/intercluster Coulombic decay (ICD/RICD)</li><li>Wigner–Smith (EWS) time delays</li><li>Attosecond streaking time delays</li><li>Classical-trajectory Monte Carlo (CTMC)</li>
 </ul>
 </section>
 
