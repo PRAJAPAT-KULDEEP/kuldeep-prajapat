@@ -11,22 +11,36 @@ description: "Academic and research gallery of Kuldeep Prajapat."
 
 # Gallery
 
-A visual record of academic events, research activities, and scientific illustrations cleared for public sharing.
+A visual record of conferences, workshops, and research activities.
 
-{% assign gallery_items = site.data.gallery %}
-{% if gallery_items and gallery_items.size > 0 %}
-<div class="gallery-grid">
-{% for item in gallery_items %}
-<figure class="gallery-card">
-<a href="{{ item.image | relative_url }}" aria-label="Open full-size image: {{ item.alt | escape }}">
-<img src="{{ item.image | relative_url }}" alt="{{ item.alt | escape }}" loading="lazy" decoding="async">
-</a>
-{% if item.caption %}<figcaption>{{ item.caption | escape }}</figcaption>{% endif %}
-</figure>
+{% assign gallery_sections = site.data.gallery %}
+{% for section in gallery_sections %}
+<section class="kp-section gallery-section" id="conference-{{ forloop.index }}">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">{{ forloop.index | prepend: "0" | slice: -2, 2 }} / CONFERENCE GALLERY</p>
+      <h2>{{ section.title | escape }}</h2>
+      {% if section.location and section.location != "" %}
+      <p class="section-intro">{{ section.location | escape }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if section.photos and section.photos.size > 0 %}
+  <div class="gallery-grid">
+    {% for photo in section.photos %}
+    <figure class="gallery-card">
+      <a href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
+        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
+      </a>
+      {% if photo.caption %}<figcaption>{{ photo.caption | escape }}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty">Photographs and captions for this event will be added here.</p>
+  {% endif %}
+</section>
 {% endfor %}
-</div>
-{% else %}
-<p class="empty"><strong>Gallery coming soon.</strong> No photographs are published here yet. Images will be added when they are available and cleared for sharing.</p>
-{% endif %}
 
 </div>
