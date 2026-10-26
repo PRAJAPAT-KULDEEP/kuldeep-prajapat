@@ -1,5 +1,14 @@
-# Add only photographs or research visuals cleared for public sharing.
-# - image: "/images/gallery/conference.jpg"
-#   alt: "Kuldeep Prajapat presenting a poster at a conference"
-#   caption: "Conference name, location, and year"
-[]
+# Add photographs and captions under the relevant conference's photos list.
+# Each photo needs an image path, descriptive alt text, and an optional caption.
+- title: "WUFXS 2026: The 2026 International Workshop on UltraFast X-Ray Science"
+  location: "Shanghai, China"
+  photos: []
+- title: "IAMNOP-2025: International Conference on Atomic, Molecular, Nano, and Optical Physics with Applications"
+  location: "Jawaharlal Nehru University (JNU), New Delhi, India"
+  photos: []
+- title: "NCamp"
+  location: ""
+  photos: []
+- title: "9th Topical Conference of ISAMP"
+  location: ""
+  photos: []
