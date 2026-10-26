@@ -25,10 +25,11 @@
 <meta name="robots" content="index, follow, max-image-preview:large">
 
 {% comment %}
-Use page-specific social images when provided; otherwise use the site-wide image.
+Use an explicit social_image only when intentionally set. Do not use page.header.image,
+which may be a theme teaser or Academic Pages template image. Otherwise use the site-wide image.
 Relative filenames resolve from /images/, and paths already containing a slash resolve from the site root.
 {% endcomment %}
-{% assign seo_image_source = page.header.image | default: page.header.overlay_image | default: site.og_image | default: "og-image.png" %}
+{% assign seo_image_source = page.social_image | default: site.og_image | default: "/images/kuldeep-prajapat-profile.jpg" %}
 {% assign seo_image_abs = false %}
 {% if seo_image_source contains "://" %}
   {% assign seo_image_abs = seo_image_source %}
