@@ -149,7 +149,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/images/kuldeep-prajapat-profile.jpg" # Default social preview image; override per page with social_image
+og_image                 : "/images/article-page-preview.svg" # Site-styled default social preview; override per page with social_image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
