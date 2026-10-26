@@ -15,6 +15,7 @@
 - title: "9th ISAMP Topical Conference"
   location: "PRL, Ahmedabad, Gujarat, India"
   date: "February 15–17, 2024"
-  photos: "images/isamp-2024/poster-presentation-isamp24.jpg"
-    alt: "Research poster presentation at isamp-2024 PRL"
-    caption: "Presented my firstever research poster on photoelectron angular distribution  studie of Na20 and Na92 clusters at PRL, Ahmedabad, Gujarat, India."
+  photos:
+    - image: "/images/isamp-2024/poster-presentation-isamp24.jpg"
+      alt: "Research poster presentation at the 9th ISAMP Topical Conference at PRL, Ahmedabad"
+      caption: "Presented my first-ever research poster on photoelectron angular distributions of Na20 and Na92 clusters at the 9th ISAMP Topical Conference, PRL, Ahmedabad, Gujarat, India."
