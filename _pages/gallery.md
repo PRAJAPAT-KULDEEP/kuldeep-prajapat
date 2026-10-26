@@ -23,6 +23,9 @@ A visual record of conferences, workshops, and research activities.
       {% if section.location and section.location != "" %}
       <p class="section-intro">{{ section.location | escape }}</p>
       {% endif %}
+      {% if section.date and section.date != "" %}
+      <p class="meta">{{ section.date | escape }}</p>
+      {% endif %}
     </div>
   </div>
 
