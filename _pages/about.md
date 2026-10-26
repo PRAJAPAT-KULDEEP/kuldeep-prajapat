@@ -24,9 +24,9 @@ redirect_from:
 
 # Kuldeep Prajapat
 
-<p class="hero__lede">Ph.D. Scholar · School of Physical Sciences · Indian Institute of Technology Mandi</p>
+<p class="hero__lede">Ph.D. Scholar in Atomic, Molecular and Optical Physics · School of Physical Sciences · Indian Institute of Technology Mandi</p>
 
-<p class="hero__support">I study how electron correlation and collective excitations shape photoionization and ultrafast dynamics in atomic clusters, fullerenes, and endohedral systems.</p>
+<p class="hero__support">My research in cluster physics and theoretical photoionization examines sodium and metal clusters, fullerenes (C₆₀ and C₂₄₀), and endohedral systems such as Na₂₀@C₂₄₀. I study photoelectron angular distributions (PADs), energy- and angle-resolved photoemission, collective plasmon excitations, interatomic and intercluster Coulombic decay (ICD, including plasmonic resonant ICD/RICD), and Wigner–Smith (EWS) photoemission time delays in the attosecond regime. My methods include density-functional and time-dependent density-functional theory (DFT/TDDFT) and classical-trajectory Monte Carlo (CTMC) simulations.</p>
 
 <p class="hero__actions"><a class="kp-btn" href="{{ '/research/' | relative_url }}">Explore Research <span aria-hidden="true">↗</span></a><a class="kp-text-link" href="{{ '/publications/' | relative_url }}">View Publications <span aria-hidden="true">↗</span></a><a class="kp-text-link" href="{{ '/files/kuldeep-prajapat-cv.pdf' | relative_url }}" download>Download CV <span aria-hidden="true">↓</span></a></p>
 
