@@ -2,7 +2,7 @@
 permalink: /
 layout: splash
 title: "Kuldeep Prajapat | Theoretical AMO Researcher"
-description: "Kuldeep Prajapat, Ph.D. scholar at IIT Mandi, studies photoionization and ultrafast dynamics in atomic clusters, fullerenes and endohedral systems."
+description: "Kuldeep Prajapat at IIT Mandi researches sodium and metal clusters, fullerenes, Na20@C240, plasmonic interatomic Coulombic decay (ICD), photoelectron angular distributions, and Wigner–Smith attosecond time delays."
 redirect_from:
   - /about/
   - /archive-layout-with-content/
