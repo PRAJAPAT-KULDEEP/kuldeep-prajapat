@@ -11,7 +11,7 @@ redirect_from:
   - /resume
 ---
 
-# Kuldeep Prajapat
+**Kuldeep Prajapat**
 
 **Ph.D. Scholar, School of Physical Sciences, IIT Mandi, India**  
 **Research area:** Theoretical and computational atomic, molecular, and optical physics  
