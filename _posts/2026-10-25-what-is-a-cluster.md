@@ -10,8 +10,7 @@ tags:
   - fullerene
   - photoionization
 excerpt: "A beginner-friendly introduction to atomic clusters, their size-dependent properties, and why they are useful for studying collective electronic motion."
-header:
-  teaser: /images/
+social_image: "/images/article-page-preview.svg"
 ---
 
 A cluster is a small group of atoms or molecules bound together. In physics and chemistry, the word often describes a system that sits between an isolated atom or molecule and a piece of bulk matter. Clusters are interesting because their properties can change dramatically when just a few atoms are added or removed.
