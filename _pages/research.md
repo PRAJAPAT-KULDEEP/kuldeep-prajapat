@@ -2,7 +2,7 @@
 permalink: /research/
 layout: splash
 title: "Research"
-description: "Research by Kuldeep Prajapat at IIT Mandi on sodium and metal clusters, C60/C240 fullerenes, endohedral Na20@C240, photoionization, plasmonic resonant ICD, energy- and angle-resolved photoelectron distributions, and Wigner–Smith time delays."
+description: "Research by Kuldeep Prajapat at IIT Mandi on Na20 clusters, C60/C240, Mg@C60 and Ar@C60, Fano and plasmon resonances, ICD/RICD, photoelectron angular distributions, differential cross sections, and attosecond time delays."
 redirect_from:
   - /portfolio/
   - /portfolio/portfolio-1/
@@ -45,11 +45,11 @@ My work and current research directions concern electronic response, photoioniza
 <article class="research-card" id="plasmon-assisted-icd">
 <div class="research-card__head"><span class="project-index">03</span><span class="status-label">ONGOING RESEARCH</span></div>
 <h2>Plasmonic interatomic and intercluster Coulombic decay (ICD/RICD)</h2>
-<p class="project-question"><strong>Research question</strong> How do collective plasmon excitations, electronic hybridization, and resonant energy transfer influence interatomic Coulombic decay (ICD), resonant ICD (RICD), and photoelectron angular distributions in endohedral and confined systems such as Na₂₀@C₂₄₀?</p>
+<p class="project-question"><strong>Research question</strong> How do collective plasmon excitations, electronic hybridization, and resonant energy transfer shape intercluster Coulombic decay (ICD), resonant ICD (RICD), and the emitted-electron spectrum in Na₂₀@C₂₄₀?</p>
 <dl class="project-details">
-<div><dt>Approach</dt><dd>Study of resonant plasmonic ICD and photoelectron angular distributions. Methods listed in my CV include TDDFT and PAD analysis.</dd></div>
-<div><dt>My focus</dt><dd>Current directions include Mg@C₆₀ and Ar@C₆₀; a related Na₂₀@C₂₄₀ manuscript is listed as preparing for submission.</dd></div>
-<div><dt>Status</dt><dd>Ongoing research. The manuscript title, co-authors, and status are available on the <a href="{{ '/publications/' | relative_url }}">publications page</a>.</dd></div>
+<div><dt>Approach</dt><dd>Subshell-resolved analysis of plasmonic resonant intercluster Coulombic decay, channel interference, and photoelectron angular distributions.</dd></div>
+<div><dt>Fano analysis</dt><dd>A current direction is the Fano line-shape analysis of a single-electron ICD resonance. The resonance position, width, asymmetry parameter, and resonant fraction help characterize interference between resonant and non-resonant pathways.</dd></div>
+<div><dt>Status</dt><dd>Related Na₂₀@C₂₄₀ work includes the published study <em>Plasmonic Resonant Intercluster Coulombic Decay</em> and a manuscript in preparation on Fano analysis. See the <a href="{{ '/publications/' | relative_url }}">publications page</a> for status details.</dd></div>
 </dl>
 </article>
 
@@ -64,13 +64,25 @@ My work and current research directions concern electronic response, photoioniza
 </dl>
 </article>
 
+
+<article class="research-card" id="endohedral-fullerene-photoionization">
+<div class="research-card__head"><span class="project-index">05</span><span class="status-label">ONGOING RESEARCH</span></div>
+<h2>Endohedral fullerene photoionization: Mg@C₆₀ and Ar@C₆₀</h2>
+<p class="project-question"><strong>Research question</strong> How do atom–cage orbital hybridization, Coulomb-confinement resonances, collective cage plasmons, and interchannel coupling modify subshell-resolved photoionization in Mg@C₆₀ and Ar@C₆₀?</p>
+<dl class="project-details">
+<div><dt>Mg@C₆₀</dt><dd>Photoionization channels involving the encapsulated Mg atom and cage-derived states, including orbital hybridization and changes in angular distributions near the cage's giant plasmon resonance (GPR).</dd></div>
+<div><dt>Ar@C₆₀</dt><dd>Argon 3p photoionization, Coulomb-confinement resonances, and channel-coupling effects on angular observables and photoemission time delays.</dd></div>
+<div><dt>Observables and methods</dt><dd>Differential photoionization cross sections (DCSs), photoelectron angular distributions (PADs), the dipole anisotropy parameter β, density-functional theory (DFT), and linear-response time-dependent density-functional theory (LR-TDDFT).</dd></div>
+</dl>
+</article>
+
 </div>
 
 <section class="research-methods" aria-labelledby="methods-title">
 <p class="section-kicker">METHODS AND OBSERVABLES</p>
 <h2 id="methods-title">Connecting electronic response with emission</h2>
 <ul class="interest-tags" aria-label="Research methods">
-<li>Density-functional theory (DFT)</li><li>Time-dependent density-functional theory (TDDFT)</li><li>Photoionization cross sections</li><li>Energy- and angle-resolved photoelectron distributions</li><li>Photoelectron angular distributions (PADs)</li><li>Collective plasmon excitations</li><li>Interatomic/intercluster Coulombic decay (ICD/RICD)</li><li>Wigner–Smith (EWS) time delays</li><li>Attosecond streaking time delays</li><li>Classical-trajectory Monte Carlo (CTMC)</li>
+<li>DFT and LR-TDDFT</li><li>Photoionization cross sections and DCSs</li><li>Energy- and angle-resolved photoelectron distributions</li><li>Photoelectron angular distributions (PADs)</li><li>Dipole anisotropy parameter β</li><li>Giant plasmon resonance (GPR) and higher-energy plasmon response</li><li>Fano resonances and line-shape analysis</li><li>Coulomb-confinement resonances</li><li>Atom–cage orbital hybridization and interchannel coupling</li><li>Interatomic/intercluster Coulombic decay (ICD/RICD)</li><li>Wigner–Smith/EWS time delays</li><li>Attosecond streaking time delays</li><li>Classical-trajectory Monte Carlo (CTMC)</li>
 </ul>
 </section>
 
