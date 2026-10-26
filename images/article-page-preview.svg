@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="16" fill="#2f5d7c"/>
+<rect x="0" y="16" width="1200" height="66" fill="#f7f8fa"/>
+<text x="52" y="57" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#222831">Kuldeep Prajapat</text>
+<text x="835" y="55" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#394b59">About</text>
+<text x="918" y="55" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#394b59">Research</text>
+<text x="1020" y="55" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#394b59">Publications</text>
+<text x="1124" y="55" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#394b59">Vlog</text>
+<line x1="0" y1="82" x2="1200" y2="82" stroke="#e3e7eb" stroke-width="2"/>
+<rect x="46" y="122" width="238" height="452" rx="4" fill="#f7f8fa" stroke="#e0e4e8"/>
+<circle cx="165" cy="192" r="43" fill="#dce5eb"/>
+<circle cx="165" cy="177" r="14" fill="#8095a5"/>
+<path d="M136 214 Q165 184 194 214" fill="#8095a5"/>
+<text x="165" y="267" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#202a33">Kuldeep Prajapat</text>
+<text x="165" y="294" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#596a78">Ph.D. Scholar · IIT Mandi</text>
+<line x1="78" y1="318" x2="252" y2="318" stroke="#d8dee4"/>
+<text x="78" y="350" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#3e5362">Atomic clusters &amp; fullerenes</text>
+<text x="78" y="377" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#3e5362">Photoionization</text>
+<text x="78" y="404" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#3e5362">Plasmonic decay</text>
+<text x="78" y="431" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#3e5362">Attosecond time delays</text>
+<text x="330" y="151" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#6a7782">VLOG  /  RESEARCH NOTES</text>
+<text x="330" y="205" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#202a33">What Is a Cluster?</text>
+<text x="330" y="246" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#566571">A short introduction to cluster physics</text>
+<line x1="330" y1="274" x2="1128" y2="274" stroke="#e2e6e9" stroke-width="2"/>
+<rect x="330" y="305" width="770" height="9" rx="4" fill="#d9dfe4"/>
+<rect x="330" y="330" width="735" height="9" rx="4" fill="#d9dfe4"/>
+<rect x="330" y="355" width="785" height="9" rx="4" fill="#d9dfe4"/>
+<text x="330" y="405" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#2f5d7c">Research topics</text>
+<rect x="330" y="426" width="242" height="42" rx="4" fill="#f2f5f7" stroke="#dce3e8"/>
+<text x="451" y="452" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#344b5a">Atomic clusters</text>
+<rect x="585" y="426" width="242" height="42" rx="4" fill="#f2f5f7" stroke="#dce3e8"/>
+<text x="706" y="452" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#344b5a">Photoionization</text>
+<rect x="840" y="426" width="242" height="42" rx="4" fill="#f2f5f7" stroke="#dce3e8"/>
+<text x="961" y="452" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#344b5a">Ultrafast dynamics</text>
+<rect x="330" y="500" width="770" height="2" fill="#e2e6e9"/>
+<text x="330" y="540" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#73808a">THEORETICAL &amp; COMPUTATIONAL ATOMIC, MOLECULAR AND OPTICAL PHYSICS</text>
+<text x="330" y="565" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#73808a">IIT Mandi · Research articles and notes</text>
+</svg>
