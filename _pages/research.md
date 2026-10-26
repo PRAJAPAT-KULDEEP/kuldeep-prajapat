@@ -2,7 +2,7 @@
 permalink: /research/
 layout: splash
 title: "Research"
-description: "Research projects by Kuldeep Prajapat: photoelectron angular distributions in clusters and fullerenes, plasmon-assisted ICD, and photoemission time delays."
+description: "Research by Kuldeep Prajapat at IIT Mandi on sodium and metal clusters, C60/C240 fullerenes, endohedral Na20@C240, photoionization, plasmonic resonant ICD, energy- and angle-resolved photoelectron distributions, and Wigner–Smith time delays."
 redirect_from:
   - /portfolio/
   - /portfolio/portfolio-1/
