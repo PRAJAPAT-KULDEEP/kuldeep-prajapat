@@ -1,8 +1,8 @@
 ---
 permalink: /
 layout: splash
-title: "Kuldeep Prajapat | Cluster Physics and Attosecond Photoionization"
-description: "Kuldeep Prajapat at IIT Mandi studies sodium clusters, Mg@C60 and Ar@C60 endohedral fullerenes, Fano and plasmon resonances, ICD/RICD, photoelectron angular distributions, and attosecond delays."
+title: "Kuldeep Prajapat | Theoretical AMO and Cluster Physics, IIT Mandi"
+description: "Kuldeep Prajapat at IIT Mandi studies sodium and metal clusters, C60/C240 and Mg@C60/Ar@C60 endohedral fullerenes, Fano/plasmon resonances, ICD/RICD, PADs and attosecond delays."
 redirect_from:
   - /about/
   - /archive-layout-with-content/
