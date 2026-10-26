@@ -2,7 +2,7 @@
 permalink: /
 layout: splash
 title: "Kuldeep Prajapat | Theoretical AMO Researcher"
-description: "Academic portfolio of Kuldeep Prajapat, Ph.D. scholar at IIT Mandi. Research in photoionization, electron correlation, atomic clusters, fullerenes, endohedral systems and ultrafast dynamics."
+description: "Kuldeep Prajapat, Ph.D. scholar at IIT Mandi, studies photoionization and ultrafast dynamics in atomic clusters, fullerenes and endohedral systems."
 redirect_from:
   - /about/
   - /archive-layout-with-content/
@@ -76,25 +76,25 @@ redirect_from:
 <div class="dossier-top"><span class="dossier-no">01</span><span class="meta">ATOMIC CLUSTERS</span></div>
 <h3>Photoelectron angular distributions</h3>
 <p>Current studies of angular distributions in Na₂₀ and Na₉₂ clusters.</p>
-<a href="{{ '/research/#cluster-photoelectron-angular-distributions' | relative_url }}">Project details <span aria-hidden="true">↗</span></a>
+<a href="{{ '/research/#cluster-photoelectron-angular-distributions' | relative_url }}">Na cluster angular-distribution project <span aria-hidden="true">→</span></a>
 </article>
 <article class="dossier-card">
 <div class="dossier-top"><span class="dossier-no">02</span><span class="meta">FULLERENES</span></div>
 <h3>C₆₀ and C₂₄₀ comparison</h3>
 <p>Angle- and energy-resolved photoelectron distributions in two fullerene systems.</p>
-<a href="{{ '/research/#fullerene-photoelectron-distributions' | relative_url }}">Project details <span aria-hidden="true">↗</span></a>
+<a href="{{ '/research/#fullerene-photoelectron-distributions' | relative_url }}">C₆₀ and C₂₄₀ photoelectron-distribution project <span aria-hidden="true">→</span></a>
 </article>
 <article class="dossier-card">
 <div class="dossier-top"><span class="dossier-no">03</span><span class="meta">ENDOHEDRAL SYSTEMS</span></div>
 <h3>Plasmon-assisted ICD</h3>
 <p>Resonant interatomic Coulombic decay and photoelectron angular distributions in confined systems.</p>
-<a href="{{ '/research/#plasmon-assisted-icd' | relative_url }}">Project details <span aria-hidden="true">↗</span></a>
+<a href="{{ '/research/#plasmon-assisted-icd' | relative_url }}">Plasmon-assisted ICD project <span aria-hidden="true">→</span></a>
 </article>
 <article class="dossier-card">
 <div class="dossier-top"><span class="dossier-no">04</span><span class="meta">ULTRAFAST DYNAMICS</span></div>
 <h3>Photoemission time delays</h3>
 <p>Attosecond timing questions in clusters, fullerenes, and endohedral systems.</p>
-<a href="{{ '/research/#photoemission-time-delays' | relative_url }}">Project details <span aria-hidden="true">↗</span></a>
+<a href="{{ '/research/#photoemission-time-delays' | relative_url }}">Photoemission time-delay project <span aria-hidden="true">→</span></a>
 </article>
 </div>
 <p class="section-more"><a href="{{ '/research/' | relative_url }}">Explore the research page <span aria-hidden="true">↗</span></a></p>
@@ -140,9 +140,8 @@ redirect_from:
 </div>
 <p class="section-intro">Follow new research notes, articles, and website updates.</p>
 </div>
-<p>Choose email to request notifications, or subscribe to the site's RSS feed in your preferred feed reader. RSS does not require you to share an email address.</p>
-<p class="hero__actions"><a class="kp-btn" href="mailto:d22091@students.iitmandi.ac.in?subject=Subscribe%20to%20research%20updates&amp;body=Please%20add%20me%20to%20the%20email%20notification%20list%20for%20new%20articles%20on%20your%20website.">Subscribe by Email <span aria-hidden="true">↗</span></a><a class="kp-btn kp-btn--rss" href="{{ '/feed.xml' | relative_url }}" type="application/rss+xml">Follow via RSS <span aria-hidden="true">↗</span></a></p>
-<p class="section-intro">Email requests are currently handled manually; automatic email notifications will require connecting a newsletter service.</p>
+<p>Subscribe to the site's RSS feed in your preferred feed reader to follow new articles without sharing an email address.</p>
+<p class="hero__actions"><a class="kp-btn kp-btn--rss" href="{{ '/feed.xml' | relative_url }}" type="application/rss+xml">Follow via RSS <span aria-hidden="true">↗</span></a></p>
 </section>
 
 <section class="kp-section contact-cta" id="contact" markdown="1">
