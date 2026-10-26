@@ -297,7 +297,14 @@ img, figure, iframe, svg { max-width: 100%; }
 .kp .gallery-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; margin-top: 1.5rem; }
 .kp .gallery-card { overflow: hidden; margin: 0; border: 1px solid var(--kp-rule); background: var(--kp-paper); }
 .kp .gallery-card a { display: block; }
-.kp .gallery-card img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.kp .gallery-card img {
+  display: block;
+  width: 100%;
+  height: 390px;
+  object-fit: contain;
+  object-position: center;
+  background: var(--kp-page);
+}
 .kp .gallery-card figcaption { padding: .7rem .85rem; color: var(--kp-muted); font-size: .78rem; }
 .kp .video-date { color: var(--kp-muted); font-size: .75rem; }
 .page__content .cv-download { margin: 1.2rem 0 1.6rem; }
