@@ -1,8 +1,8 @@
 ---
 permalink: /
 layout: splash
-title: "Kuldeep Prajapat | Theoretical AMO Researcher"
-description: "Kuldeep Prajapat at IIT Mandi researches sodium and metal clusters, fullerenes, Na20@C240, plasmonic interatomic Coulombic decay (ICD), photoelectron angular distributions, and Wigner–Smith attosecond time delays."
+title: "Kuldeep Prajapat | Cluster Physics and Attosecond Photoionization"
+description: "Kuldeep Prajapat at IIT Mandi studies sodium clusters, Mg@C60 and Ar@C60 endohedral fullerenes, Fano and plasmon resonances, ICD/RICD, photoelectron angular distributions, and attosecond delays."
 redirect_from:
   - /about/
   - /archive-layout-with-content/
@@ -26,7 +26,9 @@ redirect_from:
 
 <p class="hero__lede">Ph.D. Scholar in Atomic, Molecular and Optical Physics · School of Physical Sciences · Indian Institute of Technology Mandi</p>
 
-<p class="hero__support">My research in cluster physics and theoretical photoionization examines sodium and metal clusters, fullerenes (C₆₀ and C₂₄₀), and endohedral systems such as Na₂₀@C₂₄₀. I study photoelectron angular distributions (PADs), energy- and angle-resolved photoemission, collective plasmon excitations, interatomic and intercluster Coulombic decay (ICD, including plasmonic resonant ICD/RICD), and Wigner–Smith (EWS) photoemission time delays in the attosecond regime. My methods include density-functional and time-dependent density-functional theory (DFT/TDDFT) and classical-trajectory Monte Carlo (CTMC) simulations.</p>
+<p class="hero__support">My research in cluster physics and theoretical photoionization examines sodium and metal clusters, fullerenes (C₆₀ and C₂₄₀), and endohedral systems including Mg@C₆₀, Ar@C₆₀, and Na₂₀@C₂₄₀. I study photoelectron angular distributions (PADs), energy- and angle-resolved differential cross sections (DCSs), collective giant and higher-energy plasmon resonances, Fano line shapes, and interatomic or intercluster Coulombic decay (ICD, including resonant and plasmonic ICD/RICD). My attosecond research examines Wigner–Smith/Eisenbud–Wigner–Smith (EWS) photoionization time delays and streaking delays, using density-functional and time-dependent density-functional theory (DFT/TDDFT) and classical-trajectory Monte Carlo (CTMC) simulations.
+
+<p class="hero__support">For endohedral fullerenes, I investigate how atom–cage orbital hybridization, Coulomb-confinement resonances, collective cage response, and interchannel coupling affect subshell-resolved photoionization. Relevant observables include the angular anisotropy parameter β and Fano-resonance parameters describing resonant–continuum interference.</p></p>
 
 <p class="hero__actions"><a class="kp-btn" href="{{ '/research/' | relative_url }}">Explore Research <span aria-hidden="true">↗</span></a><a class="kp-text-link" href="{{ '/publications/' | relative_url }}">View Publications <span aria-hidden="true">↗</span></a><a class="kp-text-link" href="{{ '/files/kuldeep-prajapat-cv.pdf' | relative_url }}" download>Download CV <span aria-hidden="true">↓</span></a></p>
 
