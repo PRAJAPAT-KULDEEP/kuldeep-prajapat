@@ -87,7 +87,7 @@ Relative filenames resolve from /images/, and paths already containing a slash r
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
+<meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="{{ site.name | default: site.title }}">
 <meta property="og:title" content="{{ seo_title | default: site.title }}">
 {% if page.date %}
@@ -101,6 +101,7 @@ Relative filenames resolve from /images/, and paths already containing a slash r
 <meta property="og:url" content="{{ canonical_url }}">
 {% if seo_image_abs %}
   <meta property="og:image" content="{{ seo_image_abs }}">
+  <meta property="og:image:alt" content="Academic website of Kuldeep Prajapat, researching photoionization and ultrafast dynamics in atomic clusters and fullerenes">
   {% if seo_image_abs contains ".png" %}
     <meta property="og:image:type" content="image/png">
     {% if seo_image_abs contains "og-image.png" %}
