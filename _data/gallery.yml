@@ -2,13 +2,17 @@
 # Each photo needs an image path, descriptive alt text, and an optional caption.
 - title: "WUFXS 2026: The 2026 International Workshop on UltraFast X-Ray Science"
   location: "Shanghai, China"
+  date: ""
   photos: []
 - title: "IAMNOP-2025: International Conference on Atomic, Molecular, Nano, and Optical Physics with Applications"
   location: "Jawaharlal Nehru University (JNU), New Delhi, India"
+  date: ""
   photos: []
-- title: "NCamp"
-  location: ""
+- title: "NCAMP 2025: 24th National Conference on Atomic and Molecular Physics"
+  location: "IIT Dhanbad, Jharkhand, India"
+  date: "January 8–11, 2025"
   photos: []
-- title: "9th Topical Conference of ISAMP"
-  location: ""
+- title: "9th ISAMP Topical Conference"
+  location: "PRL, Ahmedabad, Gujarat, India"
+  date: "February 15–17, 2024"
   photos: []
