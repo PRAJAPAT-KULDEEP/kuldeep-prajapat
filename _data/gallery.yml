@@ -1,15 +1,15 @@
 # Add photographs and captions under the relevant conference's photos list.
-# HEIC originals are converted to full-resolution PNG during the GitHub Pages build.
+# Each photo needs an image path, descriptive alt text, and an optional caption.
 - title: "WUFXS 2026: The 2026 International Workshop on UltraFast X-Ray Science"
   location: "East China Normal University, Shanghai, China"
   date: "April 16–19, 2026"
   photos:
-    - image: "/images/wufxs-2026/20260418_110414.png"
+    - image: "/images/wufxs-2026/20260418_110414.heic"
       alt: "Kuldeep Prajapat with Prof. Mikhail Ivanov at WUFXS 2026 in Shanghai"
       caption: "With Prof. Mikhail (Misha) Ivanov of the Max-Born-Institut. His work in theoretical attosecond physics explores ultrafast electronic dynamics and attosecond spectroscopy."
       profile_url: "https://mbi-berlin.de/p/mikhailivanov"
       profile_label: "Mikhail Ivanov's profile at MBI"
-    - image: "/images/wufxs-2026/20260418_195354.png"
+    - image: "/images/wufxs-2026/wufxs-2026-florian-trinter.webp"
       alt: "Kuldeep Prajapat with Dr. Florian Trinter at WUFXS 2026 in Shanghai"
       caption: "With Dr. Florian Trinter, group leader in the Molecular Physics Department at the Fritz-Haber-Institut of the Max Planck Society. His group investigates photoionization-induced dynamics in laser-prepared gas- and aqueous-phase samples using photoelectron spectroscopy and pump–probe methods."
       profile_url: "https://www.fhi.mpg.de/1400561/Group-Members"
