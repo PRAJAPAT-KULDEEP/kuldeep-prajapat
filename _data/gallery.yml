@@ -31,7 +31,12 @@
 - title: "NCAMP 2025: 24th National Conference on Atomic and Molecular Physics"
   location: "IIT Dhanbad, Jharkhand, India"
   date: "January 8–11, 2025"
-  photos: []
+  photos:
+    - image: "/images/ncamp-2025/1000229857.jpg"
+      alt: "Kuldeep Prajapat with Prof. Andrey V. Solov'yov at NCAMP 2025"
+      caption: "With Prof. Andrey V. Solov’yov, known for his contributions to theoretical atomic, molecular, and cluster physics, including the structure and dynamics of clusters and fullerenes."
+      profile_url: "https://www.humboldt-foundation.de/vernetzen/recherche-im-humboldt-netzwerk/einzelansicht/1026900/prof-dr-andrey-v-solov-yov"
+      profile_label: "Andrey V. Solov’yov's profile at the Alexander von Humboldt Foundation"
 - title: "9th ISAMP Topical Conference"
   location: "PRL, Ahmedabad, Gujarat, India"
   date: "February 15–17, 2024"
