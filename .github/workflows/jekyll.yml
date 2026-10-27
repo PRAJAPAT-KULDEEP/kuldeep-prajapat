@@ -32,7 +32,9 @@ jobs:
           set -euo pipefail
           heif-convert images/wufxs-2026/20260418_110414.heic images/wufxs-2026/20260418_110414.png
           heif-convert images/wufxs-2026/20260418_195354.heic images/wufxs-2026/20260418_195354.png
-          file images/wufxs-2026/20260418_110414.png images/wufxs-2026/20260418_195354.png
+          heif-convert images/wufxs-2026/20260418_195933.heic images/wufxs-2026/20260418_195933.png
+          heif-convert images/wufxs-2026/20260418_203053.heic images/wufxs-2026/20260418_203053.png
+          file images/wufxs-2026/20260418_110414.png images/wufxs-2026/20260418_195354.png images/wufxs-2026/20260418_195933.png images/wufxs-2026/20260418_203053.png
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
