@@ -33,7 +33,7 @@ A visual record of conferences, workshops, and research activities.
   <div class="gallery-grid">
     {% for photo in section.photos %}
     <figure class="gallery-card">
-      <a href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
+      <a class="gallery-image-frame" href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
         <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
       </a>
       {% if photo.caption or photo.profile_url %}
