@@ -15,7 +15,7 @@ A visual record of conferences, workshops, and research activities.
 
 {% assign gallery_sections = site.data.gallery %}
 {% for section in gallery_sections %}
-<section class="kp-section gallery-section" id="conference-{{ forloop.index }}">
+<section class="kp-section gallery-section {% if section.title contains 'WUFXS 2026' %}gallery-section--wufxs{% endif %}" id="conference-{{ forloop.index }}">
   <div class="section-heading">
     <div>
       <p class="section-kicker">{{ forloop.index | prepend: "0" | slice: -2, 2 }} / CONFERENCE GALLERY</p>
@@ -32,7 +32,7 @@ A visual record of conferences, workshops, and research activities.
   {% if section.photos and section.photos.size > 0 %}
   <div class="gallery-grid">
     {% for photo in section.photos %}
-    <figure class="gallery-card">
+    <figure class="gallery-card{% if section.title contains 'WUFXS 2026' %}{% if forloop.first %} gallery-card--feature{% elsif forloop.last %} gallery-card--closing{% else %} gallery-card--supporting{% endif %}{% endif %}">
       <a class="gallery-image-frame" href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
         <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
       </a>
