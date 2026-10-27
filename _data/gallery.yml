@@ -27,7 +27,17 @@
 - title: "IAMNOP-2025: International Conference on Atomic, Molecular, Nano, and Optical Physics with Applications"
   location: "Jawaharlal Nehru University (JNU), New Delhi, India"
   date: "December 17–19, 2025"
-  photos: []
+  photos:
+    - image: "/images/iamnop-2025/1000175147.jpg"
+      alt: "Kuldeep Prajapat with Prof. Jan-Michael Rost at IAMNOP 2025"
+      caption: "With Prof. Jan-Michael Rost, whose theoretical research addresses the dynamics of finite quantum systems, including atoms, molecules, and clusters."
+      profile_url: "https://www.pks.mpg.de/finite-systems/people/prof-dr-jan-michael-rost/"
+      profile_label: "Jan-Michael Rost's profile at the Max Planck Institute for the Physics of Complex Systems"
+    - image: "/images/iamnop-2025/drfariaDSC02051.jpg"
+      alt: "Kuldeep Prajapat with Prof. Carla Figueira de Morisson Faria at IAMNOP 2025"
+      caption: "With Prof. Carla Figueira de Morisson Faria (UCL). I first came to know her work through AttoFriday, and it was a pleasure to meet her in person at the conference."
+      profile_url: "https://profiles.ucl.ac.uk/3465-carla-figueira-de-morisson-faria"
+      profile_label: "Carla Figueira de Morisson Faria's profile at UCL"
 - title: "NCAMP 2025: 24th National Conference on Atomic and Molecular Physics"
   location: "IIT Dhanbad, Jharkhand, India"
   date: "January 8–11, 2025"
