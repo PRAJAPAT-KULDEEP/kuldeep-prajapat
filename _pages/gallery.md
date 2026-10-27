@@ -36,7 +36,14 @@ A visual record of conferences, workshops, and research activities.
       <a href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
         <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
       </a>
-      {% if photo.caption %}<figcaption>{{ photo.caption | escape }}</figcaption>{% endif %}
+      {% if photo.caption or photo.profile_url %}
+      <figcaption>
+        {% if photo.caption %}{{ photo.caption | escape }}{% endif %}
+        {% if photo.profile_url %}
+        {% if photo.caption %} {% endif %}<a href="{{ photo.profile_url | escape }}" target="_blank" rel="noopener noreferrer">{{ photo.profile_label | default: "Research profile" | escape }}</a>
+        {% endif %}
+      </figcaption>
+      {% endif %}
     </figure>
     {% endfor %}
   </div>
