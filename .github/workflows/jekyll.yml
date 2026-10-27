@@ -24,7 +24,7 @@ jobs:
       - name: Install HEIC converter
         run: |
           sudo apt-get update
-          sudo apt-get install --yes libheif-examples
+          sudo apt-get install --yes libheif-examples libheif-plugin-libde265
       - name: Convert WUFXS originals to full-resolution PNG
         run: |
           heif-convert images/wufxs-2026/20260418_110414.heic images/wufxs-2026/20260418_110414.png
