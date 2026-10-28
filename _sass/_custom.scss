@@ -586,3 +586,42 @@ html[data-theme="dark"] .page__footer-follow .social-icons .site-search-footer a
   line-height: 1.4;
   text-align: center;
 }
+
+
+/* Keep individual social sharing choices visible; do not hide them behind the native share menu. */
+.kp .gallery-share {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+}
+.kp .gallery-share__label {
+  flex-basis: 100%;
+}
+.kp .gallery-share .gallery-share__button {
+  display: inline-flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .38rem;
+  min-height: 2.15rem;
+  padding: .42rem .66rem;
+  white-space: nowrap;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.kp .gallery-share__button > i {
+  display: inline-block;
+  font-size: .94rem;
+  line-height: 1;
+}
+.kp .gallery-share__button--linkedin > i { color: #0a66c2; }
+.kp .gallery-share__button--facebook > i { color: #1877f2; }
+.kp .gallery-share__button--researchgate > i { color: #00a98f; }
+.kp .gallery-share__button--primary > i { color: inherit; }
+.kp .gallery-share__button span { display: inline; }
+@media (max-width: 480px) {
+  .kp .gallery-share { gap: .3rem; }
+  .kp .gallery-share .gallery-share__button { padding: .4rem .52rem; font-size: .65rem; }
+}
