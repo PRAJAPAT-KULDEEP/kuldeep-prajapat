@@ -30,6 +30,24 @@
   }
 
   document.addEventListener("click", async (event) => {
+    const toggle = event.target.closest("[data-gallery-share-toggle]");
+    if (toggle) {
+      const controls = toggle.closest(".gallery-share");
+      const panelId = toggle.getAttribute("aria-controls");
+      const panel = panelId ? document.getElementById(panelId) : controls?.querySelector(".gallery-share__options");
+      if (!panel) return;
+
+      const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isExpanded));
+      toggle.setAttribute(
+        "aria-label",
+        (isExpanded ? "Show sharing options for image: " : "Hide sharing options for image: ") +
+          (controls?.dataset.imageTitle || "gallery image")
+      );
+      panel.hidden = isExpanded;
+      return;
+    }
+
     const button = event.target.closest("[data-gallery-share-action]");
     if (!button) return;
 
