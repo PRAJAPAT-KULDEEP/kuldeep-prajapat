@@ -11,7 +11,7 @@ description: "Academic and research gallery of Kuldeep Prajapat."
 
 # Gallery
 
-A visual record of conferences, workshops, and research activities. Use the share controls under each photograph to share its direct image link, copy it, or prepare a caption for ResearchGate.
+A visual record of conferences, workshops, and research activities. Each photograph has its own sharing controls. LinkedIn and Facebook share the image link; use Download image when a platform requires you to upload the photograph itself. The ResearchGate option copies the caption and link for you to paste there.
 
 {% assign gallery_sections = site.data.gallery %}
 {% for section in gallery_sections %}
@@ -55,7 +55,8 @@ A visual record of conferences, workshops, and research activities. Use the shar
         <a class="gallery-share__button" href="https://www.linkedin.com/sharing/share-offsite/?url={{ gallery_image_url | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image on LinkedIn: {{ photo.alt | escape }}">LinkedIn</a>
         <a class="gallery-share__button" href="https://www.facebook.com/sharer/sharer.php?u={{ gallery_image_url | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image on Facebook: {{ photo.alt | escape }}">Facebook</a>
         <button type="button" class="gallery-share__button" data-gallery-share-action="copy-link" aria-label="Copy direct image link: {{ photo.alt | escape }}">Copy link</button>
-        <button type="button" class="gallery-share__button" data-gallery-share-action="copy-researchgate" aria-label="Copy caption and image link for ResearchGate: {{ photo.alt | escape }}">ResearchGate</button>
+        <a class="gallery-share__button" href="{{ photo.image | relative_url }}" download aria-label="Download image: {{ photo.alt | escape }}">Download image</a>
+        <button type="button" class="gallery-share__button" data-gallery-share-action="copy-researchgate" aria-label="Copy caption and image link for ResearchGate: {{ photo.alt | escape }}">Copy for ResearchGate</button>
         <span class="gallery-share__status" role="status" aria-live="polite"></span>
       </div>
     </figure>
