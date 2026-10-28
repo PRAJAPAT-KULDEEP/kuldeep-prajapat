@@ -56,9 +56,8 @@
           await navigator.share({ title, text: shareText, url: imageUrl });
           if (status) status.textContent = "Share menu opened.";
         } else {
-          const shareUrl = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(imageUrl);
-          window.open(shareUrl, "_blank", "noopener,noreferrer");
-          if (status) status.textContent = "Your browser has no device share menu, so LinkedIn sharing was opened instead.";
+          await copyText(imageUrl);
+          if (status) status.textContent = "Your browser has no device share menu. Image link copied; paste it into your preferred app.";
         }
       } else if (action === "copy-link") {
         await copyText(imageUrl);
