@@ -16,7 +16,7 @@ redirect_from:
 
 # Research
 
-My work and current research directions concern electronic response, photoionization, and ultrafast dynamics in atomic clusters, fullerenes, and endohedral systems. The project notes below summarize documented topics and status from my CV. They do not state unreported findings.
+My work and current research directions concern electronic response, photoionization, and ultrafast dynamics in atomic clusters, fullerenes, and endohedral systems. The project notes below summarize documented topics and status from my CV. They do not state unreported findings. For a non-specialist introduction to the field, read [What Is a Cluster?]({{ '/vlog/what-is-a-cluster/' | relative_url }}). Selected background references are linked in that explainer; the [publications page]({{ '/publications/' | relative_url }}) distinguishes published work from manuscripts in preparation and conference contributions.
 
 <div class="research-grid">
 
