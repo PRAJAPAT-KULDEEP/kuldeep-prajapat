@@ -11,7 +11,7 @@ description: "Academic and research gallery of Kuldeep Prajapat."
 
 # Gallery
 
-A visual record of conferences, workshops, and research activities.
+A visual record of conferences, workshops, and research activities. Use the share controls under each photograph to share its direct image link, copy it, or prepare a caption for ResearchGate.
 
 {% assign gallery_sections = site.data.gallery %}
 {% for section in gallery_sections %}
@@ -32,6 +32,8 @@ A visual record of conferences, workshops, and research activities.
   {% if section.photos and section.photos.size > 0 %}
   <div class="gallery-grid">
     {% for photo in section.photos %}
+    {% capture gallery_share_text %}{{ photo.alt }}{% if photo.caption %}. {{ photo.caption }}{% endif %} — Kuldeep Prajapat{% endcapture %}
+    {% capture gallery_image_url %}{{ photo.image | absolute_url | uri_escape }}{% endcapture %}
     <figure class="gallery-card{% if section.title contains 'WUFXS 2026' %}{% if forloop.first %} gallery-card--feature{% elsif forloop.last %} gallery-card--closing{% else %} gallery-card--supporting{% endif %}{% endif %}">
       <a class="gallery-image-frame" href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
         <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
@@ -44,6 +46,18 @@ A visual record of conferences, workshops, and research activities.
         {% endif %}
       </figcaption>
       {% endif %}
+      <div class="gallery-share"
+           data-image-url="{{ gallery_image_url | strip | escape }}"
+           data-image-title="{{ photo.alt | escape }}"
+           data-share-text="{{ gallery_share_text | strip | escape }}">
+        <span class="gallery-share__label">Share image</span>
+        <button type="button" class="gallery-share__button gallery-share__button--primary" data-gallery-share-action="share" aria-label="Share image: {{ photo.alt | escape }}">Share…</button>
+        <a class="gallery-share__button" href="https://www.linkedin.com/sharing/share-offsite/?url={{ gallery_image_url | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image on LinkedIn: {{ photo.alt | escape }}">LinkedIn</a>
+        <a class="gallery-share__button" href="https://www.facebook.com/sharer/sharer.php?u={{ gallery_image_url | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image on Facebook: {{ photo.alt | escape }}">Facebook</a>
+        <button type="button" class="gallery-share__button" data-gallery-share-action="copy-link" aria-label="Copy direct image link: {{ photo.alt | escape }}">Copy link</button>
+        <button type="button" class="gallery-share__button" data-gallery-share-action="copy-researchgate" aria-label="Copy caption and image link for ResearchGate: {{ photo.alt | escape }}">ResearchGate</button>
+        <span class="gallery-share__status" role="status" aria-live="polite"></span>
+      </div>
     </figure>
     {% endfor %}
   </div>
@@ -54,3 +68,5 @@ A visual record of conferences, workshops, and research activities.
 {% endfor %}
 
 </div>
+
+<script src="{{ '/assets/js/gallery-share.js' | relative_url }}" defer></script>
