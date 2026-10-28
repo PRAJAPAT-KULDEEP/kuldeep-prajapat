@@ -51,14 +51,25 @@ A visual record of conferences, workshops, and research activities. Each photogr
            data-image-url="{{ gallery_image_url | strip | escape }}"
            data-image-title="{{ photo.alt | escape }}"
            data-share-text="{{ gallery_share_text | strip | escape }}">
-        <span class="gallery-share__label">Share image</span>
-        <button type="button" class="gallery-share__button gallery-share__button--primary" data-gallery-share-action="share" aria-label="Open device share options for image: {{ photo.alt | escape }}"><i class="fa fa-share-alt" aria-hidden="true"></i><span>More</span></button>
-        <a class="gallery-share__button gallery-share__button--linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url={{ gallery_image_url_encoded | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image link on LinkedIn: {{ photo.alt | escape }}"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a>
-        <a class="gallery-share__button gallery-share__button--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ gallery_image_url_encoded | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image link on Facebook: {{ photo.alt | escape }}"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
-        <button type="button" class="gallery-share__button gallery-share__button--researchgate" data-gallery-share-action="copy-researchgate" aria-label="Copy caption and image link for ResearchGate: {{ photo.alt | escape }}"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></button>
-        <button type="button" class="gallery-share__button" data-gallery-share-action="copy-link" aria-label="Copy direct image link: {{ photo.alt | escape }}"><i class="fa fa-link" aria-hidden="true"></i><span>Copy link</span></button>
-        <a class="gallery-share__button" href="{{ photo.image | relative_url }}" download aria-label="Download image: {{ photo.alt | escape }}"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
-        <span class="gallery-share__status" role="status" aria-live="polite"></span>
+        <button type="button"
+                class="gallery-share__button gallery-share__button--primary"
+                data-gallery-share-toggle
+                aria-expanded="false"
+                aria-controls="gallery-share-options-{{ section.title | slugify }}-{{ forloop.index }}"
+                aria-label="Show sharing options for image: {{ photo.alt | escape }}">
+          <i class="fa fa-share-alt" aria-hidden="true"></i><span>Share image</span>
+        </button>
+        <div class="gallery-share__options"
+             id="gallery-share-options-{{ section.title | slugify }}-{{ forloop.index }}"
+             hidden>
+          <a class="gallery-share__button gallery-share__button--linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url={{ gallery_image_url_encoded | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image link on LinkedIn: {{ photo.alt | escape }}"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a>
+          <a class="gallery-share__button gallery-share__button--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ gallery_image_url_encoded | strip }}" target="_blank" rel="noopener noreferrer" aria-label="Share image link on Facebook: {{ photo.alt | escape }}"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+          <button type="button" class="gallery-share__button gallery-share__button--researchgate" data-gallery-share-action="copy-researchgate" aria-label="Copy caption and image link for ResearchGate: {{ photo.alt | escape }}"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></button>
+          <button type="button" class="gallery-share__button" data-gallery-share-action="copy-link" aria-label="Copy direct image link: {{ photo.alt | escape }}"><i class="fa fa-link" aria-hidden="true"></i><span>Copy link</span></button>
+          <a class="gallery-share__button" href="{{ photo.image | relative_url }}" download aria-label="Download image: {{ photo.alt | escape }}"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+          <button type="button" class="gallery-share__button" data-gallery-share-action="share" aria-label="Open device share menu for image: {{ photo.alt | escape }}"><i class="fa fa-share-alt" aria-hidden="true"></i><span>More</span></button>
+          <span class="gallery-share__status" role="status" aria-live="polite"></span>
+        </div>
       </div>
     </figure>
     {% endfor %}
