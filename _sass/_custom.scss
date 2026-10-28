@@ -625,3 +625,50 @@ html[data-theme="dark"] .page__footer-follow .social-icons .site-search-footer a
   .kp .gallery-share { gap: .3rem; }
   .kp .gallery-share .gallery-share__button { padding: .4rem .52rem; font-size: .65rem; }
 }
+
+
+/* Gallery sharing menu: keep only the Share image trigger visible until activated. */
+.kp .gallery-share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .4rem;
+  width: 100%;
+  margin: .7rem 0 0;
+}
+.kp .gallery-share__options[hidden] {
+  display: none !important;
+}
+.kp .gallery-share__options:not([hidden]) {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+  width: 100%;
+}
+.kp .gallery-share > [data-gallery-share-toggle] {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  min-height: 2.2rem;
+  padding: .45rem .8rem;
+}
+.kp .gallery-share__options .gallery-share__button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: .38rem;
+  min-height: 2.05rem;
+  padding: .4rem .62rem;
+  white-space: nowrap;
+}
+.kp .gallery-share__options .gallery-share__status {
+  flex: 0 0 100%;
+  min-height: 1.1em;
+  color: var(--kp-muted);
+  font-size: .68rem;
+  line-height: 1.4;
+  text-align: center;
+}
