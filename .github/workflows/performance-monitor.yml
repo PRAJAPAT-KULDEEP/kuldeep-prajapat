@@ -1,0 +1,33 @@
+name: Weekly website performance check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly on Tuesday at 03:20 UTC (08:50 IST).
+    - cron: "20 3 * * 2"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-performance-monitor
+  cancel-in-progress: true
+
+jobs:
+  lighthouse:
+    name: Lighthouse audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Run Lighthouse on key pages
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            https://prajapat-kuldeep.github.io/kuldeep-prajapat/
+            https://prajapat-kuldeep.github.io/kuldeep-prajapat/research/
+            https://prajapat-kuldeep.github.io/kuldeep-prajapat/publications/
+            https://prajapat-kuldeep.github.io/kuldeep-prajapat/vlog/what-is-a-cluster/
+            https://prajapat-kuldeep.github.io/kuldeep-prajapat/gallery/
+          runs: 3
+          uploadArtifacts: true
+          temporaryPublicStorage: true
