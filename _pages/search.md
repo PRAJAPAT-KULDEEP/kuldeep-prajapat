@@ -10,7 +10,7 @@ sitemap: true
 <div class="kp site-search">
   <header class="search-header">
     <p class="section-kicker">SITE INDEX / FIND A TOPIC</p>
-    <h1>Search the research archive</h1>
+    <h2>Search the research archive</h2>
     <p>Search research themes, cluster and fullerene systems, publications, presentations, and academic pages.</p>
   </header>
   <form class="search-form" id="site-search-form" role="search">
