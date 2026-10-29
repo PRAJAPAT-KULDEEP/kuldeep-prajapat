@@ -2,7 +2,6 @@
 title: "What Is Atomic Cluster? A Short Introduction to Atomic Cluster Physics"
 date: 2026-10-25
 permalink: /vlog/what-is-a-cluster/
-math: true
 categories:
   - vlog
 tags:
@@ -20,7 +19,7 @@ social_image: "/images/article-page-preview.svg"
 The basic meaning of a cluster is a group of two or more units of the same kind that work collectively as a single entity. These units can be anything, such as computers in a computer cluster, galaxies in a galaxy cluster, or atoms in an atomic cluster. So, anything that comes together and behaves collectively can be called a cluster. 
 
 On this page i will be writing about the atomic cluster. Atomic clusters are also known as nanoparticles. Before they were identified as clusters, they were used in glass matrices or silver chloride (AgCl) for photography. Cluster physics is an interdisciplinary filed. they are used in chemistry, material science, quantum information, physics and etc.
-Clusters can be classified into different types, such as ionic clusters, covalent clusters, metal clusters, and van der Waals clusters, among others. Examples of these respective types include $$\mathrm{NaCl}_n$$ and $$\mathrm{CaCl}_n$$ for ionic clusters; $$\mathrm{B}_n$$ (boron clusters), $$\mathrm{C}_{60}$$ (fullerene), and $$\mathrm{P}_4$$ (white phosphorus) for covalent clusters; $$\mathrm{Na}_n$$ (sodium clusters) and $$\mathrm{Cu}_n$$ (copper clusters) for metal clusters; and $$\mathrm{Ar}_n$$ (argon clusters) and $$\mathrm{Ne}_n$$ (neon clusters) for van der Waals clusters.
+Clusters can be classified into different types, such as ionic clusters, covalent clusters, metal clusters, and van der Waals clusters, among others. Examples of these respective types include NaClₙ and CaClₙ for ionic clusters; Bₙ (boron clusters), C₆₀ (fullerene), and P₄ (white phosphorus) for covalent clusters; Naₙ (sodium clusters) and Cuₙ (copper clusters) for metal clusters; and Arₙ (argon clusters) and Neₙ (neon clusters) for van der Waals clusters.
 Atomic cluster are interesting because they can be in different size and shape and their properties can change dramatically when just a few atoms are added or removed.
 however my research cover the study how light interacts with atomic clusters ($$\mathrm{Na}_20$$), fullerenes, and endohedral systems. 
 
