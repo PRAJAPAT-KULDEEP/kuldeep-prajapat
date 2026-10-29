@@ -1,5 +1,5 @@
 ---
-title: "What Is a Cluster? A Short Introduction to Cluster Physics"
+title: "What Is Atomic Cluster? A Short Introduction to Atomic Cluster Physics"
 date: 2026-10-25
 permalink: /vlog/what-is-a-cluster/
 categories:
@@ -8,15 +8,29 @@ tags:
   - cluster physics
   - atomic clusters
   - fullerene
+  - endohedral fullerenes
+  - metal cluster
   - photoionization
+  - plasmonic systems
+  - collective excitation
 excerpt: "A beginner-friendly introduction to atomic clusters, their size-dependent properties, and why they are useful for studying collective electronic motion."
 social_image: "/images/article-page-preview.svg"
 ---
+The basic meaning of a cluster is a group of two or more units of the same kind that work collectively as a single entity. These units can be anything, such as computers in a computer cluster, galaxies in a galaxy cluster, or atoms in an atomic cluster. So, anything that comes together and behaves collectively can be called a cluster. 
 
-A cluster is a small group of atoms or molecules bound together. In physics and chemistry, the word often describes a system that sits between an isolated atom or molecule and a piece of bulk matter. Clusters are interesting because their properties can change dramatically when just a few atoms are added or removed.
+On this page i will be writing about the atomic cluster. Atomic clusters are also known as nanoparticles. Before they were identified as clusters, they were used in glass matrices or silver chloride (AgCl) for photography. Cluster physics is an interdisciplinary filed. they are used in chemistry, material science, quantum information, physics and etc.
+Clusters can be classified into different types, such as ionic clusters, covalent clusters, metal clusters, and van der Waals clusters, among others. Examples of these respective types include $(\mathrm{NaCl})_n$ and $(\mathrm{CaCl_2})_n$ for ionic clusters; $\mathrm{B}_n$ (boron clusters), $\mathrm{C}_{60}$ (fullerene), and $\mathrm{P}_4$ (white phosphorus) for covalent clusters; $\mathrm{Na}_n$ (sodium clusters) and $\mathrm{Cu}_n$ (copper clusters) for metal clusters; and $\mathrm{Ar}_n$ (argon clusters) and $\mathrm{Ne}_n$ (neon clusters) for van der Waals clusters.
+Atomic cluster are interesting because they can be in different size and shape and their properties can change dramatically when just a few atoms are added or removed.
+however my research cover the study how light interacts with atomic clusters ($\mathrm{Na}_20$), fullerenes, and endohedral systems. 
 
-In my research, I study how light interacts with atomic clusters, fullerenes, and endohedral systems. This note introduces the basic idea behind clusters and explains why they are useful for understanding electronic motion at the nanoscale. For an overview of my current questions and methods, see the [research page]({{ '/research/' | relative_url }}); a list of published work, manuscripts in preparation, posters, and presentations is available on the [publications page]({{ '/publications/' | relative_url }}).
+This page introduces the basic idea behind clusters and explains why they are useful for understanding electronic motion at the nanoscale. For an overview of my current questions and methods, see the [research page]({{ '/research/' | relative_url }}); a list of published work, manuscripts in preparation, posters, and presentations is available on the [publications page]({{ '/publications/' | relative_url }}).
 
+**Properties of Clusters**
+  1) Magic Number
+  2) Optical response
+    1) Plasmonic Resonances
+     2) Surface effects
+        
 ## How is a cluster different from an atom or a solid?
 
 An atom has a nucleus surrounded by electrons. A bulk solid contains an enormous number of atoms, and its properties are often described using concepts such as bands and bulk collective modes. A cluster contains a finite number of atoms, so its size, shape, and atomic arrangement can strongly influence its electronic structure.
