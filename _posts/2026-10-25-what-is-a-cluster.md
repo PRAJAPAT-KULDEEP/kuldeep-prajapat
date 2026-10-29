@@ -2,6 +2,7 @@
 title: "What Is Atomic Cluster? A Short Introduction to Atomic Cluster Physics"
 date: 2026-10-25
 permalink: /vlog/what-is-a-cluster/
+math: true
 categories:
   - vlog
 tags:
