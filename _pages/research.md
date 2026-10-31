@@ -1,13 +1,13 @@
 ---
 permalink: /research/
 layout: splash
-title: "Cluster Photoionization, Endohedral Fullerenes and Attosecond Dynamics | Kuldeep Prajapat"
-description: "Research by Kuldeep Prajapat at IIT Mandi on Na20 clusters, C60/C240, Mg@C60 and Ar@C60, Fano and plasmon resonances, ICD/RICD, DCS/PADs, confinement resonances, and EWS/streaking delays."
+title: "Cluster Photoionization and Attosecond Dynamics"
+description: "Research by Kuldeep Prajapat (IIT Mandi) on photoionization of Na clusters, C60/C240 and Mg@C60: plasmons, Fano resonances, ICD, PADs, attosecond delays."
 redirect_from:
   - /portfolio/
   - /portfolio/portfolio-1/
   - /portfolio/portfolio-2/
-
+last_modified_at: 2026-11-01
 ---
 
 <div class="kp" markdown="1">

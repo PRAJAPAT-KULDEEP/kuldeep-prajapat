@@ -4,6 +4,9 @@ name: Deploy Academic Pages template site to Pages
 on:
   push:
     branches: ["master"]
+  # Pull requests get a test build (no deploy), so a broken change is caught before merging.
+  pull_request:
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
@@ -12,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: ${{ github.event_name == 'pull_request' && format('pages-pr-{0}', github.ref) || 'pages' }}
   cancel-in-progress: false
 
 jobs:
@@ -22,19 +25,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7.0.1
 
-      # Convert HEIC originals to full-resolution PNGs. Original files stay untouched.
-      - name: Install HEIC conversion tools
+      # Make photos web-ready on the build copy only (the originals in the repo are unchanged):
+      # HEIC -> JPEG, long side at most 1600 px, metadata such as GPS location removed.
+      - name: Optimize photos for the web
         run: |
-          sudo apt-get update
-          sudo apt-get install --yes libheif-examples libheif-plugin-libde265
-      - name: Convert HEIC photos for browser compatibility
-        run: |
-          set -euo pipefail
-          heif-convert images/wufxs-2026/20260418_110414.heic images/wufxs-2026/20260418_110414.png
-          heif-convert images/wufxs-2026/20260418_195354.heic images/wufxs-2026/20260418_195354.png
-          heif-convert images/wufxs-2026/20260418_195933.heic images/wufxs-2026/20260418_195933.png
-          heif-convert images/wufxs-2026/20260418_203053.heic images/wufxs-2026/20260418_203053.png
-          file images/wufxs-2026/20260418_110414.png images/wufxs-2026/20260418_195354.png images/wufxs-2026/20260418_195933.png images/wufxs-2026/20260418_203053.png
+          python3 -m venv /tmp/imgenv
+          /tmp/imgenv/bin/pip install --quiet pillow pillow-heif
+          /tmp/imgenv/bin/python scripts/optimize_images.py images --in-place
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -49,9 +46,11 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Upload GitHub Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v5
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

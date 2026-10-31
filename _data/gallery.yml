@@ -1,30 +1,44 @@
 # Add photographs and captions under the relevant conference's photos list.
-# Image uploads are converted to browser-compatible PNG/JPEG during the GitHub Pages build.
+# Upload photos as they come from your phone or camera (HEIC or JPEG). The GitHub Pages build
+# converts HEIC to .jpg, resizes to 1600 px on the long side and strips location metadata
+# (scripts/optimize_images.py), so always point `image` at a .jpg path.
+# Optional width/height (the published pixel size) stop the page jumping while photos load;
+# get them with: python3 scripts/optimize_images.py images
 - title: "WUFXS 2026: The 2026 International Workshop on UltraFast X-Ray Science"
   location: "East China Normal University, Shanghai, China"
   date: "April 16–19, 2026"
   photos:
-    - image: "/images/wufxs-2026/Anne L’Huillier.jpg"
+    - image: "/images/wufxs-2026/anne-lhuillier.jpg"
+      width: 721
+      height: 705
       alt: "Kuldeep Prajapat with Prof. Anne L’Huillier, Nobel laureate in Physics, at WUFXS 2026"
       caption: "A dream come true: sharing a moment with Prof. Anne L’Huillier, the 2023 Nobel Prize in Physics laureate whose pioneering work helped establish attosecond science. Meeting one of the scientists whose work has inspired this field was a particularly meaningful moment."
       profile_url: "https://portal.research.lu.se/en/persons/anne-lhuillier/"
       profile_label: "Anne L’Huillier’s profile at Lund University"
-    - image: "/images/wufxs-2026/20260418_110414.png"
+    - image: "/images/wufxs-2026/20260418_110414.jpg"
+      width: 901
+      height: 1600
       alt: "Kuldeep Prajapat with Prof. Mikhail Ivanov at WUFXS 2026 in Shanghai"
       caption: "With Prof. Mikhail (Misha) Ivanov of the Max-Born-Institut. His work in theoretical attosecond physics explores ultrafast electronic dynamics and attosecond spectroscopy."
       profile_url: "https://mbi-berlin.de/p/mikhailivanov"
       profile_label: "Mikhail Ivanov's profile at MBI"
-    - image: "/images/wufxs-2026/20260418_195354.png"
+    - image: "/images/wufxs-2026/20260418_195354.jpg"
+      width: 901
+      height: 1600
       alt: "Kuldeep Prajapat with Dr. Florian Trinter at WUFXS 2026 in Shanghai"
       caption: "With Dr. Florian Trinter, group leader in the Molecular Physics Department at the Fritz-Haber-Institut of the Max Planck Society. His group investigates photoionization-induced dynamics in laser-prepared gas- and aqueous-phase samples using photoelectron spectroscopy and pump–probe methods."
       profile_url: "https://www.fhi.mpg.de/1400561/Group-Members"
       profile_label: "Florian Trinter's group profile at FHI"
-    - image: "/images/wufxs-2026/20260418_195933.png"
+    - image: "/images/wufxs-2026/20260418_195933.jpg"
+      width: 901
+      height: 1600
       alt: "Kuldeep Prajapat with Prof. Lorenz S. Cederbaum at WUFXS 2026 in Shanghai"
       caption: "With Prof. Lorenz S. Cederbaum, whose theoretical work has made major contributions to molecular electronic structure and ultrafast electronic decay processes."
       profile_url: "https://www.pci.uni-heidelberg.de/tc/lenz.html"
       profile_label: "Lorenz S. Cederbaum's profile at Heidelberg University"
-    - image: "/images/wufxs-2026/20260418_203053.png"
+    - image: "/images/wufxs-2026/20260418_203053.jpg"
+      width: 1200
+      height: 1600
       alt: "Kuldeep Prajapat with Dr. Ludger Inhester at WUFXS 2026 in Shanghai"
       caption: "With Dr. Ludger Inhester, a theoretical scientist at DESY working on ultrafast molecular dynamics and X-ray interactions with matter."
       profile_url: "https://desy-theory.cfel.de/team/senior_scientists/dr_ludger_inhester/"
@@ -34,11 +48,15 @@
   date: "December 17–19, 2025"
   photos:
     - image: "/images/iamnop-2025/1000175147.jpg"
+      width: 1145
+      height: 1600
       alt: "Kuldeep Prajapat with Prof. Jan-Michael Rost at IAMNOP 2025"
       caption: "With Prof. Jan-Michael Rost, whose theoretical research addresses the dynamics of finite quantum systems, including atoms, molecules, and clusters."
       profile_url: "https://www.pks.mpg.de/finite-systems/people/prof-dr-jan-michael-rost/"
       profile_label: "Jan-Michael Rost's profile at the Max Planck Institute for the Physics of Complex Systems"
     - image: "/images/iamnop-2025/drfariaDSC02051.jpg"
+      width: 1578
+      height: 1600
       alt: "Kuldeep Prajapat with Prof. Carla Figueira de Morisson Faria at IAMNOP 2025"
       caption: "With Prof. Carla Figueira de Morisson Faria (UCL). I first came to know her work through AttoFriday, and it was a pleasure to meet her in person at the conference."
       profile_url: "https://profiles.ucl.ac.uk/3465-carla-figueira-de-morisson-faria"
@@ -48,6 +66,8 @@
   date: "January 8–11, 2025"
   photos:
     - image: "/images/ncamp-2025/1000229857.jpg"
+      width: 1280
+      height: 1280
       alt: "Kuldeep Prajapat with Prof. Andrey V. Solov'yov at NCAMP 2025"
       caption: "With Prof. Andrey V. Solov’yov, known for his contributions to theoretical atomic, molecular, and cluster physics, including the structure and dynamics of clusters and fullerenes."
       profile_url: "https://www.humboldt-foundation.de/vernetzen/recherche-im-humboldt-netzwerk/einzelansicht/1026900/prof-dr-andrey-v-solov-yov"
@@ -57,5 +77,7 @@
   date: "February 15–17, 2024"
   photos:
     - image: "/images/isamp-2024/poster-presentation-isamp24.jpg"
+      width: 1150
+      height: 1600
       alt: "Research poster presentation at the 9th ISAMP Topical Conference at PRL, Ahmedabad"
       caption: "Presented my first-ever research poster on photoelectron angular distributions of Na20 and Na92 clusters at the 9th ISAMP Topical Conference, PRL, Ahmedabad, Gujarat, India."
