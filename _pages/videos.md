@@ -9,6 +9,7 @@ redirect_from:
   - /posts/2014/08/blog-post-3/
   - /posts/2015/08/blog-post-4/
   - /videos/
+last_modified_at: 2026-11-01
 ---
 
 <div class="kp" markdown="1">

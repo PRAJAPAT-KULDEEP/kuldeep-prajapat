@@ -1,0 +1,43 @@
+# Tell Bing (and the other IndexNow search engines) about the site's pages after each deploy.
+# The key file e9405b7f8c864deabc384eab756acdb2.txt is published inside /kuldeep-prajapat/,
+# not at the root of prajapat-kuldeep.github.io, so every request names its location
+# (keyLocation); IndexNow then accepts any URL under that folder.
+# Run it by hand from the Actions tab too: "Notify search engines (IndexNow)" -> Run workflow.
+name: Notify search engines (IndexNow)
+
+on:
+  workflow_run:
+    workflows: ["Deploy Academic Pages template site to Pages"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    # After a successful deploy (not after pull-request test builds), or when run by hand.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event != 'pull_request')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send the sitemap's pages to IndexNow
+        env:
+          HOST: prajapat-kuldeep.github.io
+          SITE: https://prajapat-kuldeep.github.io/kuldeep-prajapat
+          KEY: e9405b7f8c864deabc384eab756acdb2
+        run: |
+          set -euo pipefail
+          urls=$(curl -fsS "$SITE/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed -e 's#</\?loc>##g' | jq -R . | jq -sc .)
+          echo "Submitting $(echo "$urls" | jq length) URLs from the sitemap"
+          body=$(jq -nc --arg host "$HOST" --arg key "$KEY" --arg loc "$SITE/$KEY.txt" --argjson urls "$urls" \
+            '{host: $host, key: $key, keyLocation: $loc, urlList: $urls}')
+          code=$(curl -sS -o response.txt -w '%{http_code}' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' -d "$body")
+          echo "IndexNow answered HTTP $code"; cat response.txt || true
+          case "$code" in
+            200|202) echo "Accepted: Bing has been notified." ;;
+            429) echo "Too many submissions recently; nothing to fix, it will go through next time." ;;
+            *) echo "::error::IndexNow rejected the request (HTTP $code). 403 = key file not found; 422 = a URL is outside the key's folder."; exit 1 ;;
+          esac

@@ -149,7 +149,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/images/article-page-preview.svg" # Site-styled default social preview; override per page with social_image
+og_image                 : "/images/site-preview.png" # Site-styled default social preview (PNG: LinkedIn, WhatsApp and X don't show SVG); override per page with social_image. Source: images/site-preview.svg
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -178,6 +178,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - 20240215_185022_20260502_153923.jpg # unused 1.2 MB photo; kept in the repo, not published
   - .asset-cache
   - .bundle
   - .github

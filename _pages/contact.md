@@ -5,7 +5,7 @@ title: "Contact"
 description: "Contact Kuldeep Prajapat (IIT Mandi) for academic correspondence, research discussions and scientific collaboration."
 redirect_from:
   - /terms/
-
+last_modified_at: 2026-11-01
 ---
 
 <div class="kp" markdown="1">

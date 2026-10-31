@@ -4,7 +4,8 @@ permalink: /search/
 layout: single
 description: "Search Kuldeep Prajapat's academic website for research topics, publications, presentations, and academic pages."
 author_profile: false
-sitemap: true
+sitemap: false
+noindex: true
 ---
 
 <div class="kp site-search">

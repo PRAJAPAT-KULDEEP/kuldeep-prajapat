@@ -13,6 +13,7 @@ redirect_from:
   - /nmp/
   - /nmp.html
   - /about.html
+last_modified_at: 2026-11-01
 ---
 
 <div class="kp" markdown="1">

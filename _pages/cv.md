@@ -9,6 +9,7 @@ redirect_from:
   - /teaching/2014-spring-teaching-1
   - /teaching/2015-spring-teaching-1
   - /resume
+last_modified_at: 2026-11-01
 ---
 
 **Kuldeep Prajapat**

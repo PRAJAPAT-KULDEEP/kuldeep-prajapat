@@ -3,6 +3,7 @@ permalink: /gallery/
 layout: splash
 title: "Gallery"
 description: "Academic and research gallery of Kuldeep Prajapat."
+last_modified_at: 2026-11-01
 ---
 
 <div class="kp" markdown="1">
@@ -37,7 +38,7 @@ A visual record of conferences, workshops, and research activities. Each photogr
     {% capture gallery_image_url_encoded %}{{ gallery_image_url | uri_escape }}{% endcapture %}
     <figure class="gallery-card{% if section.title contains 'WUFXS 2026' %}{% if forloop.first %} gallery-card--feature{% elsif forloop.last %} gallery-card--closing{% else %} gallery-card--supporting{% endif %}{% endif %}">
       <a class="gallery-image-frame" href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
-        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
+        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}"{% if photo.width and photo.height %} width="{{ photo.width }}" height="{{ photo.height }}"{% endif %}{% if forloop.first and forloop.parentloop.first %} fetchpriority="high"{% else %} loading="lazy"{% endif %} decoding="async">
       </a>
       {% if photo.caption or photo.profile_url %}
       <figcaption>

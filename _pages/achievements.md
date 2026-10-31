@@ -3,6 +3,8 @@ permalink: /achievements/
 layout: splash
 title: "Achievements"
 description: "Education, awards, fellowships, grants, talks and other verified milestones of Kuldeep Prajapat, IIT Mandi."
+sitemap: false
+noindex: true
 ---
 
 <div class="kp" markdown="1">
