@@ -179,6 +179,16 @@ exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - 20240215_185022_20260502_153923.jpg # unused 1.2 MB photo; kept in the repo, not published
+  # developer and template files: kept in the repo, not published on the website
+  - AGENTS.md
+  - README.md
+  - docker-compose.yaml
+  - markdown_generator
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
   - .asset-cache
   - .bundle
   - .github
