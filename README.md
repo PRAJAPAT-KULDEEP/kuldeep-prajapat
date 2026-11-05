@@ -1,6 +1,6 @@
 # Kuldeep Prajapat — Academic Website
 
-**Live website:** https://prajapat-kuldeep.github.io/kuldeep-prajapat/
+**Live website:** https://prajapat-kuldeep.github.io/
 
 This repository contains the source for the academic website of Kuldeep Prajapat, Ph.D. scholar in the School of Physical Sciences at the Indian Institute of Technology Mandi, India.
 
@@ -8,7 +8,7 @@ The site presents research interests and academic work in theoretical and comput
 
 ## Profiles
 
-- [Academic website](https://prajapat-kuldeep.github.io/kuldeep-prajapat/)
+- [Academic website](https://prajapat-kuldeep.github.io/)
 - [Google Scholar](https://scholar.google.com/citations?user=R3HZ-pkAAAAJ&hl=en)
 - [GitHub profile](https://github.com/PRAJAPAT-KULDEEP)
 - [LinkedIn](https://www.linkedin.com/in/kuldeep-prajapat-2814ba351)
