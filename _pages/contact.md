@@ -4,6 +4,7 @@ layout: splash
 title: "Contact"
 description: "Contact Kuldeep Prajapat (IIT Mandi) for academic correspondence, research discussions and scientific collaboration."
 redirect_from:
+  - /kuldeep-prajapat/contact/
   - /terms/
 last_modified_at: 2026-11-01
 ---

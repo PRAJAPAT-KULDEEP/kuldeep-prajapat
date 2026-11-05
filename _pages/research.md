@@ -4,6 +4,7 @@ layout: splash
 title: "Cluster Photoionization and Attosecond Dynamics"
 description: "Research by Kuldeep Prajapat (IIT Mandi) on photoionization of Na clusters, C60/C240 and Mg@C60: plasmons, Fano resonances, ICD, PADs, attosecond delays."
 redirect_from:
+  - /kuldeep-prajapat/research/
   - /portfolio/
   - /portfolio/portfolio-1/
   - /portfolio/portfolio-2/

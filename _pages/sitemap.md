@@ -5,6 +5,8 @@ permalink: /sitemap/
 author_profile: true
 sitemap: false
 noindex: true
+redirect_from:
+  - /kuldeep-prajapat/sitemap/
 ---
 
 {% include base_path %}
