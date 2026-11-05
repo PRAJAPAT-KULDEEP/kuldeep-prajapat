@@ -6,6 +6,8 @@ description: "Search Kuldeep Prajapat's academic website for research topics, pu
 author_profile: false
 sitemap: false
 noindex: true
+redirect_from:
+  - /kuldeep-prajapat/search/
 ---
 
 <div class="kp site-search">

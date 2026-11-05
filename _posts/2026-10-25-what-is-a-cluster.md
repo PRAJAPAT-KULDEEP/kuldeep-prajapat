@@ -16,6 +16,8 @@ tags:
   - collective excitation
 excerpt: "A beginner-friendly introduction to atomic clusters, their size-dependent properties, and why they are useful for studying collective electronic motion."
 social_image: "/images/article-page-preview.png"
+redirect_from:
+  - /kuldeep-prajapat/vlog/what-is-a-cluster/
 ---
 The basic meaning of a cluster is a group of two or more units of the same kind that work collectively as a single entity. These units can be anything, such as computers in a computer cluster, galaxies in a galaxy cluster, or atoms in an atomic cluster. So, anything that comes together and behaves collectively can be called a cluster. 
 

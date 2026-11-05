@@ -5,6 +5,8 @@ title: "Achievements"
 description: "Education, awards, fellowships, grants, talks and other verified milestones of Kuldeep Prajapat, IIT Mandi."
 sitemap: false
 noindex: true
+redirect_from:
+  - /kuldeep-prajapat/achievements/
 ---
 
 <div class="kp" markdown="1">

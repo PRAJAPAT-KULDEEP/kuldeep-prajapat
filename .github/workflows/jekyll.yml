@@ -45,6 +45,17 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      # The site moved from /kuldeep-prajapat/ to the root on 5 Nov 2026. Old page addresses
+      # forward via `redirect_from` in each page; files can't forward, so keep copies at the
+      # old paths (outside the sitemap) so shared links to the CV, feed and photos still work.
+      - name: Keep old links to files working
+        run: |
+          set -euo pipefail
+          mkdir -p _site/kuldeep-prajapat/files
+          cp _site/files/kuldeep-prajapat-cv.pdf _site/kuldeep-prajapat/files/
+          cp _site/feed.xml _site/kuldeep-prajapat/feed.xml
+          cp -r _site/images _site/kuldeep-prajapat/images
+          ls _site/kuldeep-prajapat
       - name: Upload GitHub Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v5

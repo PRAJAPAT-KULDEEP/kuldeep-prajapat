@@ -4,6 +4,8 @@ layout: splash
 title: "Gallery"
 description: "Academic and research gallery of Kuldeep Prajapat."
 last_modified_at: 2026-11-01
+redirect_from:
+  - /kuldeep-prajapat/gallery/
 ---
 
 <div class="kp" markdown="1">
