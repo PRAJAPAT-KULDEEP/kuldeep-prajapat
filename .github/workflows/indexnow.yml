@@ -1,7 +1,7 @@
 # Tell Bing (and the other IndexNow search engines) about the site's pages after each deploy.
-# The key file e9405b7f8c864deabc384eab756acdb2.txt is published inside /kuldeep-prajapat/,
-# not at the root of prajapat-kuldeep.github.io, so every request names its location
-# (keyLocation); IndexNow then accepts any URL under that folder.
+# The key file e9405b7f8c864deabc384eab756acdb2.txt is published at the root of
+# https://prajapat-kuldeep.github.io, which covers every URL on the site; each request
+# also names its location (keyLocation) explicitly.
 # Run it by hand from the Actions tab too: "Notify search engines (IndexNow)" -> Run workflow.
 name: Notify search engines (IndexNow)
 
@@ -25,7 +25,7 @@ jobs:
       - name: Send the sitemap's pages to IndexNow
         env:
           HOST: prajapat-kuldeep.github.io
-          SITE: https://prajapat-kuldeep.github.io/kuldeep-prajapat
+          SITE: https://prajapat-kuldeep.github.io
           KEY: e9405b7f8c864deabc384eab756acdb2
         run: |
           set -euo pipefail

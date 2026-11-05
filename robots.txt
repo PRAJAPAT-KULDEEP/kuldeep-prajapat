@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://prajapat-kuldeep.github.io/kuldeep-prajapat/sitemap.xml
+Sitemap: https://prajapat-kuldeep.github.io/sitemap.xml

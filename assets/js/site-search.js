@@ -9,7 +9,7 @@
   let indexPromise;
   function loadIndex() {
     if (!indexPromise) {
-      indexPromise = fetch((document.querySelector('meta[name="site-search-index"]') || {}).content || "/kuldeep-prajapat/search-index.json")
+      indexPromise = fetch((document.querySelector('meta[name="site-search-index"]') || {}).content || "/search-index.json")
         .then(function (response) {
           if (!response.ok) throw new Error("Index unavailable");
           return response.json();
