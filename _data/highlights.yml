@@ -1,0 +1,17 @@
+# News and highlights shown near the top of the homepage (newest first).
+# Fields:
+#   date        shown exactly as written, e.g. "April 2026"
+#   label       short tag shown next to the date, e.g. "WUFXS 2026 · Shanghai"
+#   title, text the headline and one or two sentences
+#   image       optional photo path; add alt, and width/height (pixel size) so the page doesn't jump
+#   link        optional: a site path like /gallery/ or a full https:// address; link_label is its text
+- date: "April 2026"
+  label: "WUFXS 2026 · Shanghai"
+  title: "Meeting Nobel laureate Prof. Anne L’Huillier"
+  text: "At the 2026 International Workshop on UltraFast X-Ray Science (WUFXS) at East China Normal University, where I presented a poster on attosecond chronoscopy of plasmon-assisted ionization in Mg@C₆₀, I met Prof. Anne L’Huillier, who shared the 2023 Nobel Prize in Physics for generating attosecond pulses of light."
+  image: "/images/wufxs-2026/anne-lhuillier.jpg"
+  alt: "Kuldeep Prajapat with Prof. Anne L’Huillier, Nobel laureate in Physics, at WUFXS 2026"
+  width: 721
+  height: 705
+  link: "/gallery/#conference-1"
+  link_label: "More photos from WUFXS 2026"
