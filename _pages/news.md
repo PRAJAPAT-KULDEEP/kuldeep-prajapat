@@ -1,5 +1,5 @@
 ---
-permalink: /news/
+permalink: /kuldeep-prajapat/
 layout: splash
 title: "News and highlights"
 description: "News and highlights from Kuldeep Prajapat at IIT Mandi: organising Quantum Peeks 2026 and meeting Nobel laureate Prof. Anne L’Huillier at WUFXS 2026."

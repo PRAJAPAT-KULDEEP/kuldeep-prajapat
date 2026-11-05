@@ -1,4 +1,4 @@
-# News and highlights shown on the News page (/news/, the "Home" menu item), newest first.
+# News and highlights shown on the News page (/kuldeep-prajapat/, the "Home" menu item), newest first.
 # Fields:
 #   date        shown exactly as written, e.g. "April 2026"
 #   label       short tag shown next to the date, e.g. "WUFXS 2026 · Shanghai"

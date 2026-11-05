@@ -4,7 +4,6 @@ layout: splash
 title: "Kuldeep Prajapat | Theoretical AMO and Cluster Physics, IIT Mandi"
 description: "Kuldeep Prajapat at IIT Mandi researches cluster photoionization, C60/C240 fullerenes, plasmon resonances, ICD/RICD, and attosecond time delays."
 redirect_from:
-  - /kuldeep-prajapat/
   - /about/
   - /archive-layout-with-content/
   - /markdown/
@@ -133,7 +132,7 @@ last_modified_at: 2026-11-05
 <div class="highlight-item"><span class="highlight-year">2023–2024</span><strong>Conference presentations</strong><span>Work presented at ICPEAC, DAMOP, and the 9th ISAMP Topical Conference.</span></div>
 <div class="highlight-item"><span class="highlight-year">2025–2026</span><strong>Research posters</strong><span>Posters listed for NCAMP, IAMNOP, and WUFXS.</span></div>
 </div>
-<p class="section-more"><a href="{{ '/cv/' | relative_url }}">View the full academic CV <span aria-hidden="true">↗</span></a> · <a href="{{ '/news/' | relative_url }}">News and highlights <span aria-hidden="true">→</span></a></p>
+<p class="section-more"><a href="{{ '/cv/' | relative_url }}">View the full academic CV <span aria-hidden="true">↗</span></a> · <a href="{{ '/kuldeep-prajapat/' | relative_url }}">News and highlights <span aria-hidden="true">→</span></a></p>
 </section>
 
 <section class="kp-section follow-cta" id="follow-updates" markdown="1">
