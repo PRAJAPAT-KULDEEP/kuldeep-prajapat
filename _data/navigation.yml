@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /
+    url: /kuldeep-prajapat/  # News and highlights; the "Kuldeep Prajapat" link at the start of the menu opens the profile homepage (/)
   - title: "Research"
     url: /research/
   - title: "Vlog"
