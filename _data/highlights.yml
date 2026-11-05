@@ -5,6 +5,12 @@
 #   title, text the headline and one or two sentences
 #   image       optional photo path; add alt, and width/height (pixel size) so the page doesn't jump
 #   link        optional: a site path like /gallery/ or a full https:// address; link_label is its text
+- date: "14–18 November 2026"
+  label: "IIT Mandi · QP2026"
+  title: "Organising Quantum Peeks 2026"
+  text: "I am part of the team organising Quantum Peeks 2026 (QP2026), “A Himalayan Summit on Coherence in Light and Matter”, hosted by the School of Physical Sciences at IIT Mandi."
+  link: "https://research.iitmandi.ac.in/quantumpeeks2026/"
+  link_label: "Quantum Peeks 2026 website"
 - date: "April 2026"
   label: "WUFXS 2026 · Shanghai"
   title: "Meeting Nobel laureate Prof. Anne L’Huillier"
