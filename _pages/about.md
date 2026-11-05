@@ -14,7 +14,7 @@ redirect_from:
   - /nmp/
   - /nmp.html
   - /about.html
-last_modified_at: 2026-11-01
+last_modified_at: 2026-11-05
 ---
 
 <div class="kp" markdown="1">
@@ -41,36 +41,6 @@ last_modified_at: 2026-11-01
 <img class="hero__portrait" src="{{ '/images/kuldeep-prajapat-profile.jpg' | relative_url }}" alt="Portrait of Kuldeep Prajapat" width="800" height="800" fetchpriority="high" decoding="async">
 </figure>
 </section>
-
-{% if site.data.highlights and site.data.highlights.size > 0 -%}
-<section class="kp-section news-section" id="news">
-<div class="section-heading">
-<div>
-<p class="section-kicker">LATEST / NEWS AND HIGHLIGHTS</p>
-<h2>News and highlights</h2>
-</div>
-<p class="section-intro">Recent moments from conferences and the research community.</p>
-</div>
-<div class="news-grid">
-{%- for item in site.data.highlights -%}
-{%- assign news_href = nil -%}
-{%- if item.link -%}{%- if item.link contains '://' -%}{%- assign news_href = item.link -%}{%- else -%}{%- assign news_href = item.link | relative_url -%}{%- endif -%}{%- endif -%}
-{%- if news_href -%}{%- assign media_href = news_href -%}{%- else -%}{%- assign media_href = item.image | relative_url -%}{%- endif -%}
-<article class="news-card{% if item.image %} news-card--image{% endif %}">
-{%- if item.image -%}
-<a class="news-card__media" href="{{ media_href }}"><img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title | escape }}"{% if item.width and item.height %} width="{{ item.width }}" height="{{ item.height }}"{% endif %} loading="lazy" decoding="async"></a>
-{%- endif -%}
-<div class="news-card__body">
-<p class="meta">{{ item.date | escape }}{% if item.label %} · {{ item.label | escape }}{% endif %}</p>
-<h3>{{ item.title | escape }}</h3>
-<p>{{ item.text | escape }}</p>
-{%- if item.link -%}<a class="news-card__link" href="{{ news_href }}">{{ item.link_label | default: "Read more" | escape }} <span aria-hidden="true">→</span></a>{%- endif -%}
-</div>
-</article>
-{%- endfor -%}
-</div>
-</section>
-{%- endif %}
 
 <section class="kp-section" id="introduction" markdown="1">
 <div class="section-heading" markdown="1">
@@ -163,7 +133,7 @@ last_modified_at: 2026-11-01
 <div class="highlight-item"><span class="highlight-year">2023–2024</span><strong>Conference presentations</strong><span>Work presented at ICPEAC, DAMOP, and the 9th ISAMP Topical Conference.</span></div>
 <div class="highlight-item"><span class="highlight-year">2025–2026</span><strong>Research posters</strong><span>Posters listed for NCAMP, IAMNOP, and WUFXS.</span></div>
 </div>
-<p class="section-more"><a href="{{ '/cv/' | relative_url }}">View the full academic CV <span aria-hidden="true">↗</span></a></p>
+<p class="section-more"><a href="{{ '/cv/' | relative_url }}">View the full academic CV <span aria-hidden="true">↗</span></a> · <a href="{{ '/news/' | relative_url }}">News and highlights <span aria-hidden="true">→</span></a></p>
 </section>
 
 <section class="kp-section follow-cta" id="follow-updates" markdown="1">
